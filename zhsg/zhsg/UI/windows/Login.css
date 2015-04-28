@@ -1,0 +1,82 @@
+ #Login {
+halign:center;
+height:fill;
+width:fill;
+layout:vbox;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+width:fill;
+background:#f7f8f8;
+layout:vbox;
+}
+ #navigatorbar0 {
+background:#2d5aa7;
+}
+ #label0 {
+halign:center;
+height:fill;
+weight:1;
+color:#000000;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #button0 {
+height:44;
+font-size:16;
+width:44;
+}
+ #panel0 {
+halign:center;
+height:90;
+layout:vbox;
+width:fill;
+margin-top:24;
+}
+ #textbox0 {
+padding-right:15;
+padding-left:15;
+halign:LEFT;
+height:44;
+color:#333333;
+font-size:15;
+background:#ffffff;
+width:fill;
+font-family:default;
+}
+ #panel1 {
+height:1;
+background:#f1f1f1;
+layout:relative;
+width:fill;
+}
+ #panel2 {
+height:44;
+background:#ffffff;
+layout:hbox;
+width:fill;
+valign:center;
+}
+ #textbox1 {
+padding-right:8;
+padding-left:15;
+halign:LEFT;
+height:44;
+weight:1;
+color:#333333;
+font-size:15;
+background:#ffffff;
+width:0;
+font-family:default;
+}
+ #showButton {
+margin-right:8;
+height:44;
+widthWrap:44.0;
+pressed-image:pw_hidden.png;
+width:wrap;
+background-image:pw_show.png;
+}

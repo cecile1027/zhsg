@@ -1,0 +1,5 @@
+<resources>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="安全移动检查">安全移动检查</string>
+</resources>

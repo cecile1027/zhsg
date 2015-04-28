@@ -1,0 +1,41 @@
+ #SelectImage {
+halign:center;
+height:fill;
+width:fill;
+layout:vbox;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+width:fill;
+background:#F5F5F5;
+layout:vbox;
+}
+ #navigatorbar0 {
+background:#2d5aa7;
+}
+ #button0 {
+halign:left;
+height:44;
+width:44;
+background-image:back.png;
+}
+ #label0 {
+halign:center;
+height:fill;
+weight:1;
+color:#000000;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #button1 {
+height:44;
+color:#ffffff;
+width:44;
+}
+ #imageselector0 {
+height:fill;
+width:fill;
+}

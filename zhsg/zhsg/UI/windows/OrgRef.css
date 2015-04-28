@@ -1,0 +1,99 @@
+ #OrgRef {
+halign:center;
+height:fill;
+width:fill;
+layout:vbox;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+width:fill;
+background:#f7f8f8;
+layout:vbox;
+}
+ #navigatorbar0 {
+background:#2d5aa7;
+}
+ #button1 {
+height:44;
+width:44;
+background-image:back.png;
+}
+ #label0 {
+halign:center;
+height:fill;
+weight:1;
+color:#000000;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #button0 {
+halign:left;
+height:44;
+width:44;
+background-image:more.png;
+}
+ #search0 {
+height:44;
+search-btn-icon:search_left.png;
+color:#000000;
+font:default;
+font-size:14;
+width:fill;
+search-del-icon:search_right.png;
+background-image:search_bg;
+}
+ #listviewdefine0 {
+halign:center;
+weight:1;
+height:0;
+layout:vbox;
+width:fill;
+}
+ #panel0 {
+halign:center;
+height:45;
+background:#FFFFFF;
+layout:vbox;
+width:fill;
+}
+ #panel1 {
+padding-left:15;
+padding-right:15;
+height:44;
+layout:hbox;
+background:#FFFFFF;
+width:fill;
+valign:center;
+}
+ #label1 {
+margin-right:10;
+halign:left;
+height:wrap;
+color:#595757;
+heightWrap:22.0;
+font-size:15;
+width:65;
+font-family:default;
+valign:center;
+}
+ #label2 {
+halign:left;
+height:wrap;
+weight:1;
+color:#595757;
+heightWrap:22.0;
+font-size:15;
+width:0;
+font-family:default;
+valign:center;
+}
+ #panel2 {
+height:1;
+background:#f1f1f1;
+layout:hbox;
+width:fill;
+valign:center;
+}
