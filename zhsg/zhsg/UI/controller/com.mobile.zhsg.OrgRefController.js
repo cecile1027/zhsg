@@ -36,7 +36,11 @@ function com$mobile$zhsg$OrgRefController$evaljs(js){
     eval(js)
 }
 function loadList(sender, args){
-
+	var list = {
+		"list" :[
+		{"color1":"#000000","org_no":"1","org_desc":"2"}] 
+	}
+	$ctx.push(list);
 }
 com.mobile.zhsg.OrgRefController.prototype = {
     initialize : com$mobile$zhsg$OrgRefController$initialize,

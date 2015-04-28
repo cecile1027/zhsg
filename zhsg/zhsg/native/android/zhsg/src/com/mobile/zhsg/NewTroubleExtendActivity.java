@@ -91,11 +91,11 @@ public void actionPanel12_onclick(View control, UMEventArgs args) {
 public void actionAttimage3_onclick(View control, UMEventArgs args) {
   super.actionAttimage3_onclick(control,args);
 }
-public void actionDay3_onclick(View control, UMEventArgs args) {
-  super.actionDay3_onclick(control,args);
-}
 public void actionAttimage4_onclick(View control, UMEventArgs args) {
   super.actionAttimage4_onclick(control,args);
+}
+public void actionDay3_onclick(View control, UMEventArgs args) {
+  super.actionDay3_onclick(control,args);
 }
 public void actionAttimage2_onclick(View control, UMEventArgs args) {
   super.actionAttimage2_onclick(control,args);
@@ -120,6 +120,9 @@ public void actionAttimage5_onclick(View control, UMEventArgs args) {
 }
 public void actionPanel2_onclick(View control, UMEventArgs args) {
   super.actionPanel2_onclick(control,args);
+}
+public void actionPanel4_onclick(View control, UMEventArgs args) {
+  super.actionPanel4_onclick(control,args);
 }
 public void actionPanel5_onclick(View control, UMEventArgs args) {
   super.actionPanel5_onclick(control,args);

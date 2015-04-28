@@ -1,11 +1,11 @@
 //JavaScript Framework 2.0 Code
 try{
-Type.registerNamespace('com.mobile.zhsg.OrgRefController');
-com.mobile.zhsg.OrgRefController = function() {
-    com.mobile.zhsg.OrgRefController.initializeBase(this);
+Type.registerNamespace('com.mobile.zhsg.RevisedTroubleController');
+com.mobile.zhsg.RevisedTroubleController = function() {
+    com.mobile.zhsg.RevisedTroubleController.initializeBase(this);
     this.initialize();
 }
-function com$mobile$zhsg$OrgRefController$initialize(){
+function com$mobile$zhsg$RevisedTroubleController$initialize(){
     //you can programing by $ctx API
     //get the context data through $ctx.get()
     //set the context data through $ctx.push(json)
@@ -32,18 +32,22 @@ function com$mobile$zhsg$OrgRefController$initialize(){
     
 }
     
-function com$mobile$zhsg$OrgRefController$evaljs(js){
+function com$mobile$zhsg$RevisedTroubleController$evaljs(js){
     eval(js)
 }
-function loadList(sender, args){
-	var list = {
-		"list" :[
-		{"color1":"#000000","org_no":"1","org_desc":"2"}] 
+function previous(sender, args){
+
+	if(){
+		
 	}
+	
 }
-com.mobile.zhsg.OrgRefController.prototype = {
-    initialize : com$mobile$zhsg$OrgRefController$initialize,
-    evaljs : com$mobile$zhsg$OrgRefController$evaljs
+function next(sender, args){
+
+}
+com.mobile.zhsg.RevisedTroubleController.prototype = {
+    initialize : com$mobile$zhsg$RevisedTroubleController$initialize,
+    evaljs : com$mobile$zhsg$RevisedTroubleController$evaljs
 };
-com.mobile.zhsg.OrgRefController.registerClass('com.mobile.zhsg.OrgRefController',UMP.UI.Mvc.Controller);
+com.mobile.zhsg.RevisedTroubleController.registerClass('com.mobile.zhsg.RevisedTroubleController',UMP.UI.Mvc.Controller);
 }catch(e){$e(e);}

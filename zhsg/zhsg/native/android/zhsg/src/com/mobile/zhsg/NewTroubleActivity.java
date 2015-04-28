@@ -129,110 +129,110 @@ protected UMButton widget0_button1 = null;
 protected UMButton widget0_button2 = null;
 
 	
-	protected final static int ID_NEWTROUBLE = 1477135398;
-protected final static int ID_VIEWPAGE0 = 1117494882;
-protected final static int ID_NAVIGATORBAR0 = 1741545145;
-protected final static int ID_BUTTON0 = 1361433536;
-protected final static int ID_LABEL0 = 189419879;
-protected final static int ID_BUTTON1 = 1506809742;
-protected final static int ID_SCROLLVIEW_TOTAL = 1574330417;
-protected final static int ID_TOTAL = 2076494341;
-protected final static int ID_DIV1 = 175790669;
-protected final static int ID_PANEL0 = 1665079071;
-protected final static int ID_LABEL2 = 880562452;
-protected final static int ID_LABEL3 = 728256938;
-protected final static int ID_LABEL4 = 1803810300;
-protected final static int ID_LABEL5 = 1082639082;
-protected final static int ID_IMAGE0 = 1607315505;
-protected final static int ID_BRPANEL0 = 1260129527;
-protected final static int ID_PANEL2 = 259436397;
-protected final static int ID_LABEL9 = 147130623;
-protected final static int ID_LABEL10 = 1872628604;
-protected final static int ID_LABEL11 = 678031809;
-protected final static int ID_LABEL12 = 1022291765;
-protected final static int ID_IMAGE2 = 963385209;
-protected final static int ID_BRPANEL2 = 950942501;
-protected final static int ID_PANEL3 = 174450044;
-protected final static int ID_LABEL13 = 1554233050;
-protected final static int ID_LABEL14 = 1658435509;
-protected final static int ID_LABEL15 = 212083866;
-protected final static int ID_LABEL16 = 1902346882;
-protected final static int ID_IMAGE3 = 993731396;
-protected final static int ID_BRPANEL3 = 1591451710;
-protected final static int ID_PANEL12 = 283170584;
-protected final static int ID_LABEL31 = 1892555447;
-protected final static int ID_LABEL32 = 579372107;
-protected final static int ID_LABEL33 = 1976153588;
-protected final static int ID_LABEL34 = 309961552;
-protected final static int ID_IMAGE6 = 1008094993;
-protected final static int ID_PANEL13 = 1579437813;
-protected final static int ID_DIV2 = 81956457;
-protected final static int ID_BRPANEL4 = 497684035;
-protected final static int ID_PANEL5 = 1155597030;
-protected final static int ID_LABEL21 = 2123803446;
-protected final static int ID_LABEL22 = 1702261819;
-protected final static int ID_LABEL23 = 967368810;
-protected final static int ID_LABEL24 = 748289212;
-protected final static int ID_IMAGE5 = 1431562846;
-protected final static int ID_BRPANEL5 = 559074018;
-protected final static int ID_PANEL6 = 659387288;
-protected final static int ID_LABEL25 = 1505460990;
-protected final static int ID_LABEL26 = 693485480;
-protected final static int ID_TOGGLEBUTTONGROUP0 = 1224399001;
-protected final static int ID_TOGGLEBUTTON0 = 1732632907;
-protected final static int ID_TOGGLEBUTTON1 = 1100668624;
-protected final static int ID_BRPANEL6 = 1822296500;
-protected final static int ID_PANEL7 = 1432917338;
-protected final static int ID_LABEL29 = 1206689227;
-protected final static int ID_LABEL30 = 1929998901;
-protected final static int ID_DATEINPUT0 = 835484089;
-protected final static int ID_BRPANEL7 = 1264620214;
-protected final static int ID_PANEL8 = 1387127499;
-protected final static int ID_PANEL15 = 143264270;
-protected final static int ID_DAY1 = 763058832;
-protected final static int ID_PANEL16 = 212895298;
-protected final static int ID_DAY3 = 2077078725;
-protected final static int ID_PANEL17 = 1348404955;
-protected final static int ID_DAY5 = 299196599;
-protected final static int ID_BRPANEL8 = 340506304;
-protected final static int ID_PANEL14 = 1527393529;
-protected final static int ID_PANEL4 = 1750988629;
-protected final static int ID_LABEL17 = 1932558100;
-protected final static int ID_LABEL18 = 2020243184;
-protected final static int ID_BUTTON2 = 997478605;
-protected final static int ID_PANEL1 = 286030554;
-protected final static int ID_PANEL18 = 1009931258;
-protected final static int ID_LABEL1 = 459084591;
-protected final static int ID_PANEL9 = 1725257722;
-protected final static int ID_LABEL27 = 866023185;
-protected final static int ID_TEXTAREA0 = 506993896;
-protected final static int ID_PANEL10 = 69494640;
-protected final static int ID_LABEL28 = 1764746733;
-protected final static int ID_ATTPANEL1 = 1924565381;
-protected final static int ID_PANEL22 = 1024101459;
-protected final static int ID_ATTIMAGE1 = 1270719029;
-protected final static int ID_PANEL23 = 932807505;
-protected final static int ID_ATTIMAGE2 = 702730459;
-protected final static int ID_PANEL21 = 679913121;
-protected final static int ID_ATTIMAGE3 = 2059181454;
-protected final static int ID_ATTPANEL2 = 1166857811;
-protected final static int ID_PANEL24 = 813311178;
-protected final static int ID_ATTIMAGE4 = 1120118672;
-protected final static int ID_PANEL25 = 928572759;
-protected final static int ID_ATTIMAGE5 = 1105883287;
-protected final static int ID_PANEL26 = 485207453;
-protected final static int ID_ATTIMAGE6 = 1099703255;
-protected final static int ID_ATTPANEL3 = 981144868;
-protected final static int ID_PANEL27 = 1221001581;
-protected final static int ID_ATTIMAGE7 = 712312773;
-protected final static int ID_PANEL28 = 834190315;
-protected final static int ID_ATTIMAGE8 = 865875025;
-protected final static int ID_PANEL29 = 422853875;
-protected final static int ID_ATTIMAGE9 = 881391018;
-protected final static int ID_WIDGET0 = 829652544;
-protected final static int ID_WIDGET0_BUTTON0 = 1040483079;
-protected final static int ID_WIDGET0_BUTTON1 = 1962749968;
-protected final static int ID_WIDGET0_BUTTON2 = 1037011342;
+	protected final static int ID_NEWTROUBLE = 1212984730;
+protected final static int ID_VIEWPAGE0 = 294655033;
+protected final static int ID_NAVIGATORBAR0 = 1290760713;
+protected final static int ID_BUTTON0 = 328775248;
+protected final static int ID_LABEL0 = 1142687662;
+protected final static int ID_BUTTON1 = 472110707;
+protected final static int ID_SCROLLVIEW_TOTAL = 1253761623;
+protected final static int ID_TOTAL = 1446937985;
+protected final static int ID_DIV1 = 1829233016;
+protected final static int ID_PANEL0 = 1393589620;
+protected final static int ID_LABEL2 = 915691956;
+protected final static int ID_LABEL3 = 1443082991;
+protected final static int ID_LABEL4 = 2032218556;
+protected final static int ID_LABEL5 = 1801112788;
+protected final static int ID_IMAGE0 = 1924746795;
+protected final static int ID_BRPANEL0 = 1613232907;
+protected final static int ID_PANEL2 = 1385213272;
+protected final static int ID_LABEL9 = 1977208329;
+protected final static int ID_LABEL10 = 368543259;
+protected final static int ID_LABEL11 = 1769051159;
+protected final static int ID_LABEL12 = 1545977802;
+protected final static int ID_IMAGE2 = 240139858;
+protected final static int ID_BRPANEL2 = 596640841;
+protected final static int ID_PANEL3 = 1282288257;
+protected final static int ID_LABEL13 = 1475157906;
+protected final static int ID_LABEL14 = 448501570;
+protected final static int ID_LABEL15 = 927812336;
+protected final static int ID_LABEL16 = 1405780990;
+protected final static int ID_IMAGE3 = 1700281133;
+protected final static int ID_BRPANEL3 = 1502851743;
+protected final static int ID_PANEL12 = 333279931;
+protected final static int ID_LABEL31 = 1618756248;
+protected final static int ID_LABEL32 = 1394139479;
+protected final static int ID_LABEL33 = 661316183;
+protected final static int ID_LABEL34 = 2108316963;
+protected final static int ID_IMAGE6 = 735469597;
+protected final static int ID_PANEL13 = 424429735;
+protected final static int ID_DIV2 = 2043340266;
+protected final static int ID_BRPANEL4 = 396467178;
+protected final static int ID_PANEL5 = 1600634314;
+protected final static int ID_LABEL21 = 345291387;
+protected final static int ID_LABEL22 = 1089793118;
+protected final static int ID_LABEL23 = 480172660;
+protected final static int ID_LABEL24 = 295410755;
+protected final static int ID_IMAGE5 = 1916063099;
+protected final static int ID_BRPANEL5 = 390426132;
+protected final static int ID_PANEL6 = 774653966;
+protected final static int ID_LABEL25 = 1848061989;
+protected final static int ID_LABEL26 = 1852558414;
+protected final static int ID_TOGGLEBUTTONGROUP0 = 2061074265;
+protected final static int ID_TOGGLEBUTTON0 = 657856233;
+protected final static int ID_TOGGLEBUTTON1 = 934175087;
+protected final static int ID_BRPANEL6 = 516405434;
+protected final static int ID_PANEL7 = 1986374369;
+protected final static int ID_LABEL29 = 2145822997;
+protected final static int ID_LABEL30 = 143153461;
+protected final static int ID_DATEINPUT0 = 1312518676;
+protected final static int ID_BRPANEL7 = 58210117;
+protected final static int ID_PANEL8 = 319986266;
+protected final static int ID_PANEL15 = 1909781154;
+protected final static int ID_DAY1 = 1555889457;
+protected final static int ID_PANEL16 = 1122610369;
+protected final static int ID_DAY3 = 363271514;
+protected final static int ID_PANEL17 = 2040495297;
+protected final static int ID_DAY5 = 273420971;
+protected final static int ID_BRPANEL8 = 1524390118;
+protected final static int ID_PANEL14 = 620514792;
+protected final static int ID_PANEL4 = 62826526;
+protected final static int ID_LABEL17 = 818494071;
+protected final static int ID_LABEL18 = 1305125220;
+protected final static int ID_BUTTON2 = 2024684329;
+protected final static int ID_PANEL1 = 702398607;
+protected final static int ID_PANEL18 = 195675394;
+protected final static int ID_LABEL1 = 895914930;
+protected final static int ID_PANEL9 = 789148831;
+protected final static int ID_LABEL27 = 1603147495;
+protected final static int ID_TEXTAREA0 = 897554090;
+protected final static int ID_PANEL10 = 2043403133;
+protected final static int ID_LABEL28 = 1160993043;
+protected final static int ID_ATTPANEL1 = 1526790493;
+protected final static int ID_PANEL22 = 1585880644;
+protected final static int ID_ATTIMAGE1 = 1109051933;
+protected final static int ID_PANEL23 = 79049050;
+protected final static int ID_ATTIMAGE2 = 1254666375;
+protected final static int ID_PANEL21 = 566416141;
+protected final static int ID_ATTIMAGE3 = 1459720986;
+protected final static int ID_ATTPANEL2 = 623209640;
+protected final static int ID_PANEL24 = 1235853228;
+protected final static int ID_ATTIMAGE4 = 413212839;
+protected final static int ID_PANEL25 = 645326865;
+protected final static int ID_ATTIMAGE5 = 403133309;
+protected final static int ID_PANEL26 = 170127749;
+protected final static int ID_ATTIMAGE6 = 965168544;
+protected final static int ID_ATTPANEL3 = 878201566;
+protected final static int ID_PANEL27 = 384382256;
+protected final static int ID_ATTIMAGE7 = 264614408;
+protected final static int ID_PANEL28 = 1858473241;
+protected final static int ID_ATTIMAGE8 = 363895553;
+protected final static int ID_PANEL29 = 1149049059;
+protected final static int ID_ATTIMAGE9 = 747922517;
+protected final static int ID_WIDGET0 = 441283493;
+protected final static int ID_WIDGET0_BUTTON0 = 1294650188;
+protected final static int ID_WIDGET0_BUTTON1 = 163966274;
+protected final static int ID_WIDGET0_BUTTON2 = 1950199665;
 
 	
 	
@@ -859,8 +859,8 @@ return panel12;
 }
 public View getDiv1View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 div1 = (XVerticalLayout)ThirdControl.createControl(new XVerticalLayout(context),ID_DIV1
-,"padding-right","15"
 ,"padding-left","15"
+,"padding-right","15"
 ,"halign","center"
 ,"height","180"
 ,"layout-type","linear"
@@ -1131,8 +1131,8 @@ dateinput0 = (UMDateEdit)ThirdControl.createControl(new UMDateEdit(context),ID_D
 ,"height","44"
 ,"color","#595757"
 ,"layout-type","linear"
-,"font-size","15"
 ,"background","#ffffff"
+,"font-size","15"
 ,"value","2015-04-22"
 ,"font-family","default"
 );
@@ -1268,8 +1268,8 @@ return panel8;
 }
 public View getDiv2View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 div2 = (XVerticalLayout)ThirdControl.createControl(new XVerticalLayout(context),ID_DIV2
-,"padding-right","15"
 ,"padding-left","15"
+,"padding-right","15"
 ,"halign","center"
 ,"height","180"
 ,"layout-type","linear"
@@ -1335,9 +1335,18 @@ panel4 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(con
 ,"layout-type","linear"
 ,"background","#ffffff"
 ,"width","fill"
+,"onclick","action:panel4_onclick"
 ,"margin-top","24"
 ,"valign","center"
 );
+panel4.setOnClickListener(new View.OnClickListener() {
+  @Override
+  public void onClick(View v) {
+    UMEventArgs args = new UMEventArgs(NewTroubleActivity.this);
+    actionPanel4_onclick(panel4,args);
+
+}
+});
 label17 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL17
 ,"content","抄送人"
 ,"margin-right","24"
@@ -1427,8 +1436,8 @@ return panel18;
 }
 public View getPanel9View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 panel9 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL9
-,"padding-right","15"
 ,"padding-left","15"
+,"padding-right","15"
 ,"padding-top","24"
 ,"height","wrap"
 ,"heightwrap","45.0"
@@ -1456,8 +1465,8 @@ return panel9;
 }
 public View getPanel10View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 panel10 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL10
-,"padding-right","15"
 ,"padding-left","15"
+,"padding-right","15"
 ,"padding-top","24"
 ,"height","wrap"
 ,"heightwrap","45.0"
@@ -1571,8 +1580,8 @@ return panel21;
 }
 public View getAttpanel1View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 attpanel1 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_ATTPANEL1
-,"padding-left","15"
 ,"padding-right","15"
+,"padding-left","15"
 ,"height","80"
 ,"layout-type","linear"
 ,"width","fill"
@@ -1677,8 +1686,8 @@ return panel26;
 }
 public View getAttpanel2View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 attpanel2 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_ATTPANEL2
-,"padding-right","15"
 ,"padding-left","15"
+,"padding-right","15"
 ,"height","80"
 ,"layout-type","linear"
 ,"width","fill"
@@ -1827,8 +1836,8 @@ View panel9 = (View) getPanel9View((UMActivity)context,binderGroup,configure);
 total.addView(panel9);
 textarea0 = (UMTextArea)ThirdControl.createControl(new UMTextArea(context),ID_TEXTAREA0
 ,"bindfield","hazard_desc"
-,"padding-right","4"
 ,"padding-left","4"
+,"padding-right","4"
 ,"padding-top","14"
 ,"halign","LEFT"
 ,"placeholder","（非必填）"
@@ -1836,8 +1845,8 @@ textarea0 = (UMTextArea)ThirdControl.createControl(new UMTextArea(context),ID_TE
 ,"padding-bottom","14"
 ,"height","100"
 ,"color","#333333"
-,"font-size","15"
 ,"background","#ffffff"
+,"font-size","15"
 ,"layout-type","linear"
 ,"font-family","default"
 );
@@ -2063,19 +2072,19 @@ public void actionAttimage3_onclick(View control, UMEventArgs args) {
   ActionProcessor.exec(this, actionid, args);
   this.getContainer().exec(actionid, "addPic()",UMActivity.getViewId(control),args);
 }
-public void actionDay3_onclick(View control, UMEventArgs args) {
-    String actionid = "day3_onclick";
-    args.put("language","javascript");
-    args.put("containerName","");
-  ActionProcessor.exec(this, actionid, args);
-  this.getContainer().exec(actionid, "addDay()",UMActivity.getViewId(control),args);
-}
 public void actionAttimage4_onclick(View control, UMEventArgs args) {
     String actionid = "attimage4_onclick";
     args.put("language","javascript");
     args.put("containerName","");
   ActionProcessor.exec(this, actionid, args);
   this.getContainer().exec(actionid, "addPic()",UMActivity.getViewId(control),args);
+}
+public void actionDay3_onclick(View control, UMEventArgs args) {
+    String actionid = "day3_onclick";
+    args.put("language","javascript");
+    args.put("containerName","");
+  ActionProcessor.exec(this, actionid, args);
+  this.getContainer().exec(actionid, "addDay()",UMActivity.getViewId(control),args);
 }
 public void actionAttimage2_onclick(View control, UMEventArgs args) {
     String actionid = "attimage2_onclick";
@@ -2132,6 +2141,13 @@ public void actionPanel2_onclick(View control, UMEventArgs args) {
     args.put("containerName","");
   ActionProcessor.exec(this, actionid, args);
   this.getContainer().exec(actionid, "area()",UMActivity.getViewId(control),args);
+}
+public void actionPanel4_onclick(View control, UMEventArgs args) {
+    String actionid = "panel4_onclick";
+    args.put("language","javascript");
+    args.put("containerName","");
+  ActionProcessor.exec(this, actionid, args);
+  this.getContainer().exec(actionid, "sendPerson()",UMActivity.getViewId(control),args);
 }
 public void actionPanel5_onclick(View control, UMEventArgs args) {
     String actionid = "panel5_onclick";

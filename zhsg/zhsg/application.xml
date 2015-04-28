@@ -17,7 +17,8 @@
   <view id="RectificatedTrouble" ref="RectificatedTrouble.dsl" include="true"/>  
   <view id="DetailProcess" ref="DetailProcess.dsl" include="true"/>  
   <view id="SelectImage" ref="SelectImage.dsl" include="true"/>  
-  <view id="BackTrouble" ref="BackTrouble.dsl" include="true"/>
+  <view id="BackTrouble" ref="BackTrouble.dsl" include="true"/>  
+  <view id="RevisedTrouble" ref="RevisedTrouble.dsl" include="true"/>
 </application>
 <!--
 screenOrientation

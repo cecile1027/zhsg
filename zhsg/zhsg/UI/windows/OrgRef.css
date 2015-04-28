@@ -60,11 +60,11 @@ layout:vbox;
 width:fill;
 }
  #panel1 {
-padding-left:15;
 padding-right:15;
+padding-left:15;
 height:44;
-layout:hbox;
 background:#FFFFFF;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -74,6 +74,7 @@ halign:left;
 height:wrap;
 color:#595757;
 heightWrap:22.0;
+background:#{color1};
 font-size:15;
 width:65;
 font-family:default;

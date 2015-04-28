@@ -63,32 +63,33 @@ function reload(argument) {
 }
 function load(sender, args){
 	var i = $id("flipperdefine0").get("viewindex");
+	
 	var list = {
 		list:[
-	{"safe_yh_level":0,"ope_area_desc":"安全区1","rowstate":"Created","color":"#ffffff"},
-	{"safe_yh_level":1,"ope_area_desc":"安全区2","rowstate":"Created","color":"#595757"},
-	{"safe_yh_level":2,"ope_area_desc":"安全区3","rowstate":"Created","color":"#f1f1f1"}
+	{"safe_yh_level":0,"ope_area_desc":"安全区1","rowstate":"Created","color0":"#ffffff"},
+	{"safe_yh_level":1,"ope_area_desc":"安全区2","rowstate":"Created","color0":"#595757"},
+	{"safe_yh_level":2,"ope_area_desc":"安全区3","rowstate":"Created","color0":"#f1f1f1"}
 	]};
 	
 		var list2 = {
 		list:[
-	{"safe_yh_level":3,"ope_area_desc":"安全区4","rowstate":"Created","color":"#ffffff"},
-	{"safe_yh_level":4,"ope_area_desc":"安全区5","rowstate":"Created","color":"#595757"},
-	{"safe_yh_level":5,"ope_area_desc":"安全区6","rowstate":"Created","color":"#f1f1f1"}
+	{"safe_yh_level":3,"ope_area_desc":"安全区4","rowstate":"Created","color0":"#ffffff"},
+	{"safe_yh_level":4,"ope_area_desc":"安全区5","rowstate":"Created","color0":"#595757"},
+	{"safe_yh_level":5,"ope_area_desc":"安全区6","rowstate":"Created","color0":"#f1f1f1"}
 	]};
 	
 		var list3 = {
 		list:[
-	{"safe_yh_level":6,"ope_area_desc":"安全区7","rowstate":"Created","color":"#ffffff"},
-	{"safe_yh_level":7,"ope_area_desc":"安全区8","rowstate":"Created","color":"#595757"},
-	{"safe_yh_level":8,"ope_area_desc":"安全区9","rowstate":"Created","color":"#f1f1f1"}
+	{"safe_yh_level":6,"ope_area_desc":"安全区7","rowstate":"Created","color0":"#ffffff"},
+	{"safe_yh_level":7,"ope_area_desc":"安全区8","rowstate":"Created","color0":"#595757"},
+	{"safe_yh_level":8,"ope_area_desc":"安全区9","rowstate":"Created","color0":"#f1f1f1"}
 	]};
 	
 		var list4 = {
 		list:[
-	{"safe_yh_level":9,"ope_area_desc":"安全区10","rowstate":"Created","color":"#ffffff"},
-	{"safe_yh_level":10,"ope_area_desc":"安全区11","rowstate":"Created","color":"#595757"},
-	{"safe_yh_level":11,"ope_area_desc":"安全区12","rowstate":"Created","color":"#f1f1f1"}
+	{"safe_yh_level":9,"ope_area_desc":"安全区10","rowstate":"Created","color0":"#ffffff"},
+	{"safe_yh_level":10,"ope_area_desc":"安全区11","rowstate":"Created","color0":"#595757"},
+	{"safe_yh_level":11,"ope_area_desc":"安全区12","rowstate":"Created","color0":"#f1f1f1"}
 	]};
 	
 	if(i==0){
@@ -103,28 +104,10 @@ function load(sender, args){
 	}else if(i==3){
 		alert(i);
 		$ctx.push(list4);
-	}
-	
-	
-	if(sender=="listpanel0"){
-		alert(sender);
-		$ctx.push(list);
-		alert(list);
-	}else if(sender=="listpanel1"){
-		$ctx.push(list2);
-		alert(sender);
-		alert(list2);
-	}else if(sender=="listpanel2"){
-		$ctx.push(list3);
-		alert(sender);
-		alert(list3);
-	}else if(sender=="listpanel3"){
-		$ctx.push(list4);
-		alert(sender);
-		alert(list4);
-	}
+	}	
 
 }
+
 function toggleChange(sender, args){
 	var i = $id("togglebuttongroup0").get("selectedvalue");
 	$id("flipperdefine0").set("viewindex",i);
@@ -144,6 +127,30 @@ function back(sender, args){
 	$view.close();
 }
 function search(sender, args){
+
+}
+function itemClick() {
+  	var i = $id("flipperdefine0").get("viewindex");
+	var row = $id("flipperdefine0_widget"+i).get("row");
+	var viewid;
+	if(i == 0){
+		viewid = ""
+	}else if(i==1){
+		viewid = "com.mobile.zhsg.RectificatedTrouble";
+	}else if(i==2){
+		viewid = "com.mobile.zhsg.NewTrouble";
+	}else if(i == 3){
+		viewid = "";
+	}
+		if(i == 0){
+		$view.open({
+		"viewid" : viewid,//目标页面（首字母大写）全名，
+		"isKeep" : "true",//保留当前页面不关闭
+		"callback":"load()",//回调的JS方法
+		"row" :row
+	});
+	
+	}
 
 }
 com.mobile.zhsg.HomeController.prototype = {

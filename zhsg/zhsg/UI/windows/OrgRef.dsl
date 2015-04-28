@@ -10,10 +10,10 @@
             <input id="button0" class="buttonclass" type="button"/> 
         </navigatorbar>
         <search id="search0" placeholder="搜索" localstorage="true"/>
-        <listView id="listviewdefine0" onload="loadList()">
+        <listView id="listviewdefine0" bindfield="list" onload="loadList()">
             <div id="panel0">
                 <div id="panel1">
-                    <label id="label1" bindfield="org_no">编码</label>
+                    <label id="label1" bindfield="org_no" background="#{color1}">编码</label>
                     <label id="label2" bindfield="org_desc">名称</label> 
                 </div>
                 <div id="panel2"/> 
