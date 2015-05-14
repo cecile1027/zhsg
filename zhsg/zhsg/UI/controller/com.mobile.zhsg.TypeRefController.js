@@ -35,6 +35,34 @@ function com$mobile$zhsg$TypeRefController$initialize(){
 function com$mobile$zhsg$TypeRefController$evaljs(js){
     eval(js)
 }
+function back(sender, args){
+	$view.close();
+}
+function search(sender, args){
+
+}
+function load(sender, args){
+	$service.callAction({
+		"viewid" : "com.yonyou.uap.safetw.SafeLovListCtl",//后台带包名的Controller名
+		"action" : "YhTypeAll",//方法名,	
+		"params" : {"keytype":"All","keyvalue":"1"},//自定义参数
+		"callback" : function(){
+			var list = $ctx.getJSONObject();
+//			alert($jsonToString(list));
+			$ctx.push(list);
+		},//请求回来后执行的ActionID
+		"error" : "error()"//失败回调的ActionId
+	})
+}
+function itemClick(sender, args){
+	var row = $id("listviewdefine0").get("row");
+//	alert($jsonToString(row));
+	$view.close({
+		"resultCode" : "15",
+		"result" : row
+	})
+
+}
 com.mobile.zhsg.TypeRefController.prototype = {
     initialize : com$mobile$zhsg$TypeRefController$initialize,
     evaljs : com$mobile$zhsg$TypeRefController$evaljs

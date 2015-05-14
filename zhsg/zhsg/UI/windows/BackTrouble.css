@@ -3,6 +3,7 @@ halign:center;
 height:900;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #viewPage0 {
 halign:center;
@@ -10,8 +11,10 @@ height:fill;
 layout:vbox;
 background:#f7f8f8;
 width:fill;
+valign:TOP;
 }
  #navigatorbar0 {
+halign:LEFT;
 background:#2d5aa7;
 }
  #button0 {
@@ -49,8 +52,10 @@ heightWrap:140.0;
 layout:vbox;
 background:#ffffff;
 margin-top:24;
+valign:TOP;
 }
  #panel1 {
+halign:LEFT;
 height:30;
 layout:hbox;
 width:fill;
@@ -61,8 +66,8 @@ margin-right:6;
 halign:center;
 height:30;
 color:#ffffff;
-background:#1680fa;
 font-size:13;
+background:#1680fa;
 width:44;
 font-family:default;
 valign:center;
@@ -87,7 +92,7 @@ font-size:14;
 width:10;
 font-family:default;
 valign:center;
-background-image:ing.png;
+background-image:created.png;
 }
  #label4 {
 halign:center;
@@ -100,6 +105,7 @@ font-family:default;
 valign:center;
 }
  #panel4 {
+halign:LEFT;
 height:20;
 layout:hbox;
 width:fill;
@@ -136,7 +142,7 @@ font-size:13;
 width:wrap;
 }
  #label15 {
-halign:center;
+halign:left;
 height:wrap;
 color:#595757;
 heightWrap:20.0;
@@ -144,7 +150,7 @@ font-size:13;
 width:fill;
 font-family:default;
 margin-top:4;
-valign:center;
+valign:top;
 }
  #panel11 {
 halign:center;
@@ -153,9 +159,11 @@ heightWrap:120.0;
 layout:vbox;
 width:fill;
 margin-bottom:24;
+valign:TOP;
 }
  #panel12 {
 margin-right:15;
+halign:LEFT;
 height:30;
 layout:hbox;
 width:fill;
@@ -175,21 +183,22 @@ font-family:default;
 valign:center;
 }
  #textarea0 {
-padding-right:15;
 padding-left:15;
+padding-right:15;
 halign:LEFT;
 height:80;
 color:#333333;
-font-size:15;
 background:#ffffff;
+font-size:15;
 width:fill;
 font-family:default;
 }
  #panel9 {
 padding-left:15;
+halign:LEFT;
 height:44;
-background:#ffffff;
 layout:hbox;
+background:#ffffff;
 width:fill;
 valign:center;
 }
@@ -221,23 +230,24 @@ width:44;
 background-image:btn_add;
 }
  #panel2 {
-padding-right:15;
 padding-left:15;
+padding-right:15;
 halign:center;
 height:80;
-layout:vbox;
 background:#ffffff;
+layout:vbox;
 width:fill;
 opacity:15;
 margin-top:5;
+valign:TOP;
 }
  #label5 {
-halign:center;
+halign:left;
 height:wrap;
 color:#595757;
 heightWrap:132.0;
 font-size:15;
 width:fill;
 font-family:default;
-valign:center;
+valign:top;
 }

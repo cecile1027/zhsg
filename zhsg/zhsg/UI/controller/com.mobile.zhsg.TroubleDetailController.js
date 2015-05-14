@@ -35,11 +35,53 @@ function com$mobile$zhsg$TroubleDetailController$initialize(){
 function com$mobile$zhsg$TroubleDetailController$evaljs(js){
     eval(js)
 }
-function previous(sender, args){
 
+function load(sender, args){
+	var row = $param.getJSONObject("row");
+//	alert($jsonToString(row));
+	var level = row.safe_yh_level;
+	if(level=="NORMAL"){
+		$id("label1").set("background", "#1680fa");
+	}else{
+		$id("label1").set("background", "#ff3c3c");
+	}
+    var rowstate = row.rowstate;
+    if(rowstate == "Created"){
+        $id("label3").set("background-image","created.png");
+    }else if(rowstate == "Issued"){
+        $id("label3").set("background-image","issued.png");
+    }else if(rowstate == "Rectificated"){
+        $id("label3").set("background-image","rectificated.png");
+    }else if(rowstate == "Revised"){
+        $id("label3").set("background-image","revised.png");
+    }else if(rowstate == "Closed"){
+        $id("label3").set("background-image","closed.png");
+    }
+
+    var rectification_period = row.rectification_period.replace("-","/");
+    var day = (new Date(rectification_period) - new Date())/(24*60*60*1000);
+    if(rowstate == "Closed"){
+        $id("period").set("color","#DCDDDD");
+    }else{
+        if(day<=-1){
+            $id("period").set("color","#FF3c3c");
+        }
+        if(day<=1&& day>-1){
+            $id("period").set("color","#FF7777");
+        }
+        if(day<=3&&day>1){
+            $id("period").set("color","#feb568");
+        }
+        if(day<=7&&day>3){
+            $id("period").set("color","#fedb6e");
+        }
+    }
+
+	$ctx.push(row);
 }
-function next(sender, args){
 
+function back(sender, args){
+	$view.close();
 }
 com.mobile.zhsg.TroubleDetailController.prototype = {
     initialize : com$mobile$zhsg$TroubleDetailController$initialize,

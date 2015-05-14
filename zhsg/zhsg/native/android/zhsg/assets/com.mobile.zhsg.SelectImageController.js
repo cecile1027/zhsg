@@ -36,19 +36,29 @@ function com$mobile$zhsg$SelectImageController$evaljs(js){
     eval(js)
 }
 function selectPic(sender, args){
+//	alert($param.getString("att_length"));
+	var att_length = parseInt($param.getString("att_length"));	
+//	alert(att_length);
 	var str = $id("imageselector0").get("selectedimages");
+    
     var pathlist = $stringToJSON(str);
-	$view.close({
-		"resultCode" : "15",
-		"selectedimages" : pathlist,
-		"result2" : "{x:3, y:4}"
-	});
+//    alert(pathlist.length + att_length);
+    if(pathlist.length + att_length>9){
+    	alert("图片总数不能超过9张，请重新选择");
+    }else{
+    	$view.close({
+			"resultCode" : "15",
+			"selectedimages" : pathlist
+		});
+    }
+	
 }
 function loadPic(sender, args){
+	/*
 	$camera.openPhotoAlbum({
 		bindfield : "images",
 		callback : function (){
-			alert($ctx.getString("images"));
+//			alert($ctx.getString("images"));
 	        var badge = ($ctx.getString("images")).split("/");
 	        filepath = "/";
 	        for(var i=1;i<(badge.length-1);i++){
@@ -58,6 +68,10 @@ function loadPic(sender, args){
 	        $cache.write("photoPath", filepath);
 		}
 	});
+	*/
+	var path = $service.call("UMDevice.getAlbumPath", {}, true);
+//	alert(path);
+	$id("imageselector0").set("path",path+"/");
 }
 function back(sender, args){
 	$view.close();

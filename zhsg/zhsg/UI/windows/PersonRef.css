@@ -29,12 +29,6 @@ width:0;
 font-family:default;
 valign:center;
 }
- #button0 {
-halign:left;
-height:44;
-width:44;
-background-image:more.png;
-}
  #search0 {
 height:44;
 search-btn-icon:search_left.png;
@@ -60,22 +54,23 @@ layout:vbox;
 background:#FFFFFF;
 }
  #panel1 {
-padding-left:15;
 padding-right:15;
+padding-left:15;
 height:44;
-layout:hbox;
 background:#FFFFFF;
+layout:hbox;
 width:fill;
 valign:center;
 }
  #label1 {
-margin-right:10;
+margin-right:20;
 halign:left;
 height:wrap;
+widthWrap:32.0;
 color:#595757;
 heightWrap:22.0;
 font-size:15;
-width:65;
+width:wrap;
 font-family:default;
 valign:center;
 }

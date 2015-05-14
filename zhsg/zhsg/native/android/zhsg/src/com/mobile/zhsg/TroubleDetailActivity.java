@@ -42,7 +42,7 @@ protected UMLabel label7 = null;
 protected XHorizontalLayout panel3 = null;
 protected UMLabel label10 = null;
 protected UMLabel label11 = null;
-protected UMLabel label12 = null;
+protected UMLabel period = null;
 protected XHorizontalLayout panel4 = null;
 protected UMLabel label13 = null;
 protected UMLabel label14 = null;
@@ -50,77 +50,55 @@ protected UMButton button1 = null;
 protected UMLabel label15 = null;
 protected XHorizontalLayout panel5 = null;
 protected UMLabel label16 = null;
-protected XRelativeLayout panel6 = null;
+protected XHorizontalLayout panel6 = null;
+protected UMGallery aftergallery = null;
 protected XHorizontalLayout panel7 = null;
 protected UMLabel label17 = null;
 protected XHorizontalLayout panel8 = null;
-protected XHorizontalLayout afterPrevious = null;
-protected UMButton button3 = null;
-protected XHorizontalLayout panel10 = null;
-protected XVerticalLayout panel13 = null;
-protected UMImage afterImage1 = null;
-protected XVerticalLayout panel14 = null;
-protected UMImage afterImage2 = null;
-protected XVerticalLayout panel15 = null;
-protected UMImage afterImage3 = null;
-protected XVerticalLayout panel16 = null;
-protected UMImage afterImage4 = null;
-protected XHorizontalLayout afterNext = null;
-protected UMButton button2 = null;
+protected UMGallery beforegallery = null;
 protected XHorizontalLayout panel9 = null;
 protected UMLabel label19 = null;
 protected UMLabel label22 = null;
 protected UMImage image0 = null;
 
 	
-	protected final static int ID_TROUBLEDETAIL = 1693782310;
-protected final static int ID_SCROLLVIEW_VIEWPAGE0 = 2030640449;
-protected final static int ID_VIEWPAGE0 = 1298034031;
-protected final static int ID_NAVIGATORBAR0 = 1713884180;
-protected final static int ID_BUTTON0 = 837119336;
-protected final static int ID_LABEL0 = 52207419;
-protected final static int ID_PANEL0 = 1093218784;
-protected final static int ID_PANEL1 = 449758952;
-protected final static int ID_LABEL1 = 735272163;
-protected final static int ID_LABEL2 = 1183659292;
-protected final static int ID_LABEL3 = 1929626181;
-protected final static int ID_LABEL4 = 728821124;
-protected final static int ID_PANEL2 = 1613470565;
-protected final static int ID_LABEL5 = 714650650;
-protected final static int ID_LABEL6 = 1270583236;
-protected final static int ID_LABEL7 = 2112994129;
-protected final static int ID_PANEL3 = 475033954;
-protected final static int ID_LABEL10 = 311595708;
-protected final static int ID_LABEL11 = 410593262;
-protected final static int ID_LABEL12 = 1188705555;
-protected final static int ID_PANEL4 = 1875874315;
-protected final static int ID_LABEL13 = 859573618;
-protected final static int ID_LABEL14 = 800434207;
-protected final static int ID_BUTTON1 = 1125907443;
-protected final static int ID_LABEL15 = 2044291831;
-protected final static int ID_PANEL5 = 1387931112;
-protected final static int ID_LABEL16 = 1837131818;
-protected final static int ID_PANEL6 = 537262871;
-protected final static int ID_PANEL7 = 81531717;
-protected final static int ID_LABEL17 = 1146936042;
-protected final static int ID_PANEL8 = 1213659894;
-protected final static int ID_AFTERPREVIOUS = 1881473315;
-protected final static int ID_BUTTON3 = 106541855;
-protected final static int ID_PANEL10 = 28486166;
-protected final static int ID_PANEL13 = 522667484;
-protected final static int ID_AFTERIMAGE1 = 38295746;
-protected final static int ID_PANEL14 = 970566262;
-protected final static int ID_AFTERIMAGE2 = 1141951240;
-protected final static int ID_PANEL15 = 1978291968;
-protected final static int ID_AFTERIMAGE3 = 177078265;
-protected final static int ID_PANEL16 = 381805004;
-protected final static int ID_AFTERIMAGE4 = 929891072;
-protected final static int ID_AFTERNEXT = 521798274;
-protected final static int ID_BUTTON2 = 2104747936;
-protected final static int ID_PANEL9 = 1730900944;
-protected final static int ID_LABEL19 = 1509201655;
-protected final static int ID_LABEL22 = 1234217926;
-protected final static int ID_IMAGE0 = 129612896;
+	protected final static int ID_TROUBLEDETAIL = 282225529;
+protected final static int ID_SCROLLVIEW_VIEWPAGE0 = 254485417;
+protected final static int ID_VIEWPAGE0 = 1841097942;
+protected final static int ID_NAVIGATORBAR0 = 91399189;
+protected final static int ID_BUTTON0 = 1721751623;
+protected final static int ID_LABEL0 = 1059512620;
+protected final static int ID_PANEL0 = 1855093473;
+protected final static int ID_PANEL1 = 750028805;
+protected final static int ID_LABEL1 = 2337557;
+protected final static int ID_LABEL2 = 2026802400;
+protected final static int ID_LABEL3 = 23302547;
+protected final static int ID_LABEL4 = 1377540783;
+protected final static int ID_PANEL2 = 105272292;
+protected final static int ID_LABEL5 = 1582815967;
+protected final static int ID_LABEL6 = 147493619;
+protected final static int ID_LABEL7 = 185709497;
+protected final static int ID_PANEL3 = 757039247;
+protected final static int ID_LABEL10 = 144619652;
+protected final static int ID_LABEL11 = 358628889;
+protected final static int ID_PERIOD = 1721709535;
+protected final static int ID_PANEL4 = 1990933330;
+protected final static int ID_LABEL13 = 471507886;
+protected final static int ID_LABEL14 = 1314098892;
+protected final static int ID_BUTTON1 = 2062694183;
+protected final static int ID_LABEL15 = 823577553;
+protected final static int ID_PANEL5 = 378427009;
+protected final static int ID_LABEL16 = 1745589352;
+protected final static int ID_PANEL6 = 1008080838;
+protected final static int ID_AFTERGALLERY = 1846410806;
+protected final static int ID_PANEL7 = 157344803;
+protected final static int ID_LABEL17 = 10812921;
+protected final static int ID_PANEL8 = 415793778;
+protected final static int ID_BEFOREGALLERY = 1176772953;
+protected final static int ID_PANEL9 = 820595171;
+protected final static int ID_LABEL19 = 197804548;
+protected final static int ID_LABEL22 = 10010458;
+protected final static int ID_IMAGE0 = 356255348;
 
 	
 	
@@ -234,7 +212,7 @@ this.setContentView(currentPage);
   idmap.put("panel3",ID_PANEL3);
   idmap.put("label10",ID_LABEL10);
   idmap.put("label11",ID_LABEL11);
-  idmap.put("label12",ID_LABEL12);
+  idmap.put("period",ID_PERIOD);
   idmap.put("panel4",ID_PANEL4);
   idmap.put("label13",ID_LABEL13);
   idmap.put("label14",ID_LABEL14);
@@ -243,22 +221,11 @@ this.setContentView(currentPage);
   idmap.put("panel5",ID_PANEL5);
   idmap.put("label16",ID_LABEL16);
   idmap.put("panel6",ID_PANEL6);
+  idmap.put("aftergallery",ID_AFTERGALLERY);
   idmap.put("panel7",ID_PANEL7);
   idmap.put("label17",ID_LABEL17);
   idmap.put("panel8",ID_PANEL8);
-  idmap.put("afterPrevious",ID_AFTERPREVIOUS);
-  idmap.put("button3",ID_BUTTON3);
-  idmap.put("panel10",ID_PANEL10);
-  idmap.put("panel13",ID_PANEL13);
-  idmap.put("afterImage1",ID_AFTERIMAGE1);
-  idmap.put("panel14",ID_PANEL14);
-  idmap.put("afterImage2",ID_AFTERIMAGE2);
-  idmap.put("panel15",ID_PANEL15);
-  idmap.put("afterImage3",ID_AFTERIMAGE3);
-  idmap.put("panel16",ID_PANEL16);
-  idmap.put("afterImage4",ID_AFTERIMAGE4);
-  idmap.put("afterNext",ID_AFTERNEXT);
-  idmap.put("button2",ID_BUTTON2);
+  idmap.put("beforegallery",ID_BEFOREGALLERY);
   idmap.put("panel9",ID_PANEL9);
   idmap.put("label19",ID_LABEL19);
   idmap.put("label22",ID_LABEL22);
@@ -272,7 +239,12 @@ this.setContentView(currentPage);
 			currentPage.onLoad();
 		}
 	
-		
+		{ //viewPage0 - action:viewpage0_onload
+    UMEventArgs args = new UMEventArgs(TroubleDetailActivity.this);
+    actionViewpage0_onload(viewPage0,args);
+
+}
+
 	}
 	
 	public void onDatabinding() {
@@ -307,10 +279,11 @@ this.setContentView(currentPage);
 navigatorbar0 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_NAVIGATORBAR0
 ,"padding-left","8"
 ,"padding-right","8"
+,"halign","LEFT"
+,"width","fill"
 ,"title","隐患详情"
 ,"height","44.0"
 ,"color","#ffffff"
-,"width","fill"
 ,"layout-type","linear"
 ,"font-size","17"
 ,"background","#2d5aa7"
@@ -324,11 +297,20 @@ button0 = (UMButton)ThirdControl.createControl(new UMButton(context),ID_BUTTON0
 ,"layout-type","linear"
 ,"width","44"
 ,"font-size","20"
+,"onclick","action:button0_onclick"
 ,"font-family","default"
 ,"font-pressed-color","#00a1ea"
 ,"valign","center"
 ,"background-image","back.png"
 );
+button0.setOnClickListener(new View.OnClickListener() {
+  @Override
+  public void onClick(View v) {
+    UMEventArgs args = new UMEventArgs(TroubleDetailActivity.this);
+    actionButton0_onclick(button0,args);
+
+}
+});
 navigatorbar0.addView(button0);
 label0 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL0
 ,"halign","center"
@@ -347,32 +329,33 @@ return navigatorbar0;
 }
 public View getPanel1View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 panel1 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL1
+,"halign","LEFT"
 ,"height","30"
 ,"layout-type","linear"
 ,"width","fill"
 ,"valign","center"
 );
 label1 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL1
-,"bindfield","safe_yh_level"
+,"bindfield","safe_yh_level_name"
 ,"halign","center"
 ,"width","44"
 ,"content","一般"
 ,"margin-right","6"
 ,"height","30"
 ,"color","#ffffff"
-,"font-size","13"
 ,"background","#1680fa"
+,"font-size","13"
 ,"layout-type","linear"
 ,"font-family","default"
 ,"valign","center"
 );
 UMTextBinder label1_binder = new UMTextBinder((IUMContextAccessor)context);
-label1_binder.setBindInfo(new BindInfo("safe_yh_level"));
+label1_binder.setBindInfo(new BindInfo("safe_yh_level_name"));
 label1_binder.setControl(label1);
 binderGroup.addBinderToGroup(ID_LABEL1, label1_binder);
 panel1.addView(label1);
 label2 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL2
-,"bindfield","ope_area_desc"
+,"bindfield","ope_area_no"
 ,"halign","left"
 ,"weight","1"
 ,"width","0"
@@ -386,7 +369,7 @@ label2 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL2
 ,"valign","center"
 );
 UMTextBinder label2_binder = new UMTextBinder((IUMContextAccessor)context);
-label2_binder.setBindInfo(new BindInfo("ope_area_desc"));
+label2_binder.setBindInfo(new BindInfo("ope_area_no"));
 label2_binder.setControl(label2);
 binderGroup.addBinderToGroup(ID_LABEL2, label2_binder);
 panel1.addView(label2);
@@ -406,7 +389,7 @@ label3 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL3
 panel1.addView(label3);
 label4 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL4
 ,"content","已创建"
-,"bindfield","rowstate"
+,"bindfield","rowstate_name"
 ,"halign","center"
 ,"height","20"
 ,"widthwrap","42.0"
@@ -418,7 +401,7 @@ label4 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL4
 ,"valign","center"
 );
 UMTextBinder label4_binder = new UMTextBinder((IUMContextAccessor)context);
-label4_binder.setBindInfo(new BindInfo("rowstate"));
+label4_binder.setBindInfo(new BindInfo("rowstate_name"));
 label4_binder.setControl(label4);
 binderGroup.addBinderToGroup(ID_LABEL4, label4_binder);
 panel1.addView(label4);
@@ -427,6 +410,7 @@ return panel1;
 }
 public View getPanel2View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 panel2 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL2
+,"halign","LEFT"
 ,"height","wrap"
 ,"heightwrap","20.0"
 ,"layout-type","linear"
@@ -435,7 +419,7 @@ panel2 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(con
 ,"valign","center"
 );
 label5 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL5
-,"bindfield","org_desc"
+,"bindfield","respon_unit_desc"
 ,"halign","center"
 ,"widthwrap","56.0"
 ,"width","wrap"
@@ -449,7 +433,7 @@ label5 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL5
 ,"valign","center"
 );
 UMTextBinder label5_binder = new UMTextBinder((IUMContextAccessor)context);
-label5_binder.setBindInfo(new BindInfo("org_desc"));
+label5_binder.setBindInfo(new BindInfo("respon_unit_desc"));
 label5_binder.setControl(label5);
 binderGroup.addBinderToGroup(ID_LABEL5, label5_binder);
 panel2.addView(label5);
@@ -467,7 +451,7 @@ label6 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL6
 );
 panel2.addView(label6);
 label7 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL7
-,"bindfield","name"
+,"bindfield","duty_officer_name"
 ,"halign","center"
 ,"widthwrap","42.0"
 ,"width","wrap"
@@ -481,7 +465,7 @@ label7 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL7
 ,"valign","center"
 );
 UMTextBinder label7_binder = new UMTextBinder((IUMContextAccessor)context);
-label7_binder.setBindInfo(new BindInfo("name"));
+label7_binder.setBindInfo(new BindInfo("duty_officer_name"));
 label7_binder.setControl(label7);
 binderGroup.addBinderToGroup(ID_LABEL7, label7_binder);
 panel2.addView(label7);
@@ -490,6 +474,7 @@ return panel2;
 }
 public View getPanel3View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 panel3 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL3
+,"halign","LEFT"
 ,"height","wrap"
 ,"heightwrap","20.0"
 ,"layout-type","linear"
@@ -498,7 +483,7 @@ panel3 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(con
 ,"valign","center"
 );
 label10 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL10
-,"bindfield","type_describe"
+,"bindfield","yh_sub_type_describe"
 ,"halign","center"
 ,"widthwrap","28.0"
 ,"width","wrap"
@@ -512,7 +497,7 @@ label10 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL10
 ,"valign","center"
 );
 UMTextBinder label10_binder = new UMTextBinder((IUMContextAccessor)context);
-label10_binder.setBindInfo(new BindInfo("type_describe"));
+label10_binder.setBindInfo(new BindInfo("yh_sub_type_describe"));
 label10_binder.setControl(label10);
 binderGroup.addBinderToGroup(ID_LABEL10, label10_binder);
 panel3.addView(label10);
@@ -528,7 +513,7 @@ label11 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL11
 ,"valign","center"
 );
 panel3.addView(label11);
-label12 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL12
+period = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_PERIOD
 ,"bindfield","rectification_period"
 ,"halign","center"
 ,"widthwrap","84.0"
@@ -542,16 +527,17 @@ label12 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL12
 ,"font-family","default"
 ,"valign","center"
 );
-UMTextBinder label12_binder = new UMTextBinder((IUMContextAccessor)context);
-label12_binder.setBindInfo(new BindInfo("rectification_period"));
-label12_binder.setControl(label12);
-binderGroup.addBinderToGroup(ID_LABEL12, label12_binder);
-panel3.addView(label12);
+UMTextBinder period_binder = new UMTextBinder((IUMContextAccessor)context);
+period_binder.setBindInfo(new BindInfo("rectification_period"));
+period_binder.setControl(period);
+binderGroup.addBinderToGroup(ID_PERIOD, period_binder);
+panel3.addView(period);
 
 return panel3;
 }
 public View getPanel4View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 panel4 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL4
+,"halign","LEFT"
 ,"height","20"
 ,"layout-type","linear"
 ,"width","fill"
@@ -604,17 +590,18 @@ return panel4;
 }
 public View getPanel0View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 panel0 = (XVerticalLayout)ThirdControl.createControl(new XVerticalLayout(context),ID_PANEL0
-,"padding-right","15"
 ,"padding-left","15"
+,"padding-right","15"
 ,"padding-top","6"
 ,"halign","center"
-,"height","200"
 ,"width","fill"
-,"background","#ffffff"
-,"layout-type","linear"
 ,"margin-bottom","24"
-,"margin-top","24"
 ,"padding-bottom","6"
+,"height","200"
+,"layout-type","linear"
+,"background","#ffffff"
+,"margin-top","24"
+,"valign","TOP"
 );
 View panel1 = (View) getPanel1View((UMActivity)context,binderGroup,configure);
 panel0.addView(panel1);
@@ -626,7 +613,7 @@ View panel4 = (View) getPanel4View((UMActivity)context,binderGroup,configure);
 panel0.addView(panel4);
 label15 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL15
 ,"bindfield","hazard_desc"
-,"halign","center"
+,"halign","left"
 ,"width","fill"
 ,"type","multiline"
 ,"content","隐患描述"
@@ -637,7 +624,7 @@ label15 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL15
 ,"layout-type","linear"
 ,"font-family","default"
 ,"margin-top","4"
-,"valign","center"
+,"valign","top"
 );
 UMTextBinder label15_binder = new UMTextBinder((IUMContextAccessor)context);
 label15_binder.setBindInfo(new BindInfo("hazard_desc"));
@@ -649,11 +636,12 @@ return panel0;
 }
 public View getPanel5View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 panel5 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL5
+,"halign","LEFT"
 ,"height","20"
 ,"layout-type","linear"
 ,"width","fill"
+,"margin-bottom","5"
 ,"valign","center"
-,"padding-bottom","5"
 );
 label16 = (UMLabel)ThirdControl.createControl(new UMLabel(context),ID_LABEL16
 ,"halign","center"
@@ -673,8 +661,33 @@ panel5.addView(label16);
 
 return panel5;
 }
+public View getPanel6View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
+panel6 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL6
+,"halign","LEFT"
+,"height","80"
+,"layout-type","linear"
+,"width","fill"
+,"margin-bottom","24"
+,"valign","center"
+);
+aftergallery = (UMGallery)ThirdControl.createControl(new UMGallery(context),ID_AFTERGALLERY
+,"bindfield","afterAtt"
+,"height","60"
+,"itemindex","0"
+,"layout-type","linear"
+,"width","fill"
+,"scaletype","fitcenter"
+,"spacing","12dp"
+,"itemwidth","60"
+,"datasource",""
+);
+panel6.addView(aftergallery);
+
+return panel6;
+}
 public View getPanel7View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 panel7 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL7
+,"halign","LEFT"
 ,"height","20"
 ,"layout-type","linear"
 ,"width","fill"
@@ -699,190 +712,35 @@ panel7.addView(label17);
 
 return panel7;
 }
-public View getAfterPreviousView(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
-afterPrevious = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_AFTERPREVIOUS
-,"height","fill"
-,"layout-type","linear"
-,"width","12"
-,"onclick","action:afterprevious_onclick"
-,"valign","center"
-);
-afterPrevious.setOnClickListener(new View.OnClickListener() {
-  @Override
-  public void onClick(View v) {
-    UMEventArgs args = new UMEventArgs(TroubleDetailActivity.this);
-    actionAfterprevious_onclick(afterPrevious,args);
-
-}
-});
-button3 = (UMButton)ThirdControl.createControl(new UMButton(context),ID_BUTTON3
-,"margin-right","6"
-,"halign","center"
-,"height","44"
-,"color","#00a1ea"
-,"layout-type","linear"
-,"width","8"
-,"font-size","17"
-,"font-family","default"
-,"font-pressed-color","#459dfe"
-,"valign","center"
-,"background-image","row_left.png"
-);
-afterPrevious.addView(button3);
-
-return afterPrevious;
-}
-public View getPanel13View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
-panel13 = (XVerticalLayout)ThirdControl.createControl(new XVerticalLayout(context),ID_PANEL13
-,"halign","center"
-,"weight","1"
-,"height","60.0"
-,"layout-type","linear"
-,"width","0"
-);
-afterImage1 = (UMImage)ThirdControl.createControl(new UMImage(context),ID_AFTERIMAGE1
-,"height","60"
-,"layout-type","linear"
-,"width","60"
-,"scaletype","fitcenter"
-,"src","picture"
-);
-panel13.addView(afterImage1);
-
-return panel13;
-}
-public View getPanel14View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
-panel14 = (XVerticalLayout)ThirdControl.createControl(new XVerticalLayout(context),ID_PANEL14
-,"halign","center"
-,"weight","1"
-,"height","60.0"
-,"layout-type","linear"
-,"width","0"
-);
-afterImage2 = (UMImage)ThirdControl.createControl(new UMImage(context),ID_AFTERIMAGE2
-,"height","60"
-,"layout-type","linear"
-,"width","60"
-,"scaletype","fitcenter"
-,"src","picture"
-);
-panel14.addView(afterImage2);
-
-return panel14;
-}
-public View getPanel15View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
-panel15 = (XVerticalLayout)ThirdControl.createControl(new XVerticalLayout(context),ID_PANEL15
-,"halign","center"
-,"weight","1"
-,"height","60.0"
-,"layout-type","linear"
-,"width","0"
-);
-afterImage3 = (UMImage)ThirdControl.createControl(new UMImage(context),ID_AFTERIMAGE3
-,"height","60"
-,"layout-type","linear"
-,"width","60"
-,"scaletype","fitcenter"
-,"src","picture"
-);
-panel15.addView(afterImage3);
-
-return panel15;
-}
-public View getPanel16View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
-panel16 = (XVerticalLayout)ThirdControl.createControl(new XVerticalLayout(context),ID_PANEL16
-,"halign","center"
-,"weight","1"
-,"height","60.0"
-,"layout-type","linear"
-,"width","0"
-);
-afterImage4 = (UMImage)ThirdControl.createControl(new UMImage(context),ID_AFTERIMAGE4
-,"height","60"
-,"layout-type","linear"
-,"width","60"
-,"scaletype","fitcenter"
-,"src","picture"
-);
-panel16.addView(afterImage4);
-
-return panel16;
-}
-public View getPanel10View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
-panel10 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL10
-,"weight","1"
-,"height","fill"
-,"layout-type","linear"
-,"width","0"
-,"valign","center"
-);
-View panel13 = (View) getPanel13View((UMActivity)context,binderGroup,configure);
-panel10.addView(panel13);
-View panel14 = (View) getPanel14View((UMActivity)context,binderGroup,configure);
-panel10.addView(panel14);
-View panel15 = (View) getPanel15View((UMActivity)context,binderGroup,configure);
-panel10.addView(panel15);
-View panel16 = (View) getPanel16View((UMActivity)context,binderGroup,configure);
-panel10.addView(panel16);
-
-return panel10;
-}
-public View getAfterNextView(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
-afterNext = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_AFTERNEXT
-,"height","fill"
-,"layout-type","linear"
-,"width","12"
-,"onclick","action:afternext_onclick"
-,"valign","center"
-);
-afterNext.setOnClickListener(new View.OnClickListener() {
-  @Override
-  public void onClick(View v) {
-    UMEventArgs args = new UMEventArgs(TroubleDetailActivity.this);
-    actionAfternext_onclick(afterNext,args);
-
-}
-});
-button2 = (UMButton)ThirdControl.createControl(new UMButton(context),ID_BUTTON2
-,"halign","center"
-,"height","44"
-,"color","#00a1ea"
-,"layout-type","linear"
-,"width","8"
-,"font-size","17"
-,"margin-left","6"
-,"font-family","default"
-,"font-pressed-color","#459dfe"
-,"valign","center"
-,"background-image","row_indicator.png"
-);
-afterNext.addView(button2);
-
-return afterNext;
-}
 public View getPanel8View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 panel8 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL8
-,"padding-left","15"
-,"padding-right","15"
+,"halign","LEFT"
 ,"height","80"
 ,"layout-type","linear"
 ,"width","fill"
 ,"margin-bottom","24"
 ,"valign","center"
 );
-View afterPrevious = (View) getAfterPreviousView((UMActivity)context,binderGroup,configure);
-panel8.addView(afterPrevious);
-View panel10 = (View) getPanel10View((UMActivity)context,binderGroup,configure);
-panel8.addView(panel10);
-View afterNext = (View) getAfterNextView((UMActivity)context,binderGroup,configure);
-panel8.addView(afterNext);
+beforegallery = (UMGallery)ThirdControl.createControl(new UMGallery(context),ID_BEFOREGALLERY
+,"bindfield","beforeAtt"
+,"height","60"
+,"itemindex","0"
+,"layout-type","linear"
+,"width","fill"
+,"scaletype","fitcenter"
+,"spacing","12dp"
+,"itemwidth","60"
+,"datasource",""
+);
+panel8.addView(beforegallery);
 
 return panel8;
 }
 public View getPanel9View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 panel9 = (XHorizontalLayout)ThirdControl.createControl(new XHorizontalLayout(context),ID_PANEL9
-,"padding-right","15"
 ,"padding-left","15"
+,"padding-right","15"
+,"halign","LEFT"
 ,"height","44"
 ,"layout-type","linear"
 ,"background","#ffffff"
@@ -928,10 +786,12 @@ return panel9;
 public View getViewPage0View(final UMActivity context,IBinderGroup binderGroup, UMDslConfigure configure) {
 viewPage0 = (XVerticalLayout)ThirdControl.createControl(new XVerticalLayout(context),ID_VIEWPAGE0
 ,"halign","center"
-,"height","wrap"
+,"height","fill"
+,"onload","action:viewpage0_onload"
 ,"layout-type","vbox"
 ,"background","#f7f8f8"
 ,"width","fill"
+,"valign","TOP"
 );
 View navigatorbar0 = (View) getNavigatorbar0View((UMActivity)context,binderGroup,configure);
 viewPage0.addView(navigatorbar0);
@@ -939,12 +799,7 @@ View panel0 = (View) getPanel0View((UMActivity)context,binderGroup,configure);
 viewPage0.addView(panel0);
 View panel5 = (View) getPanel5View((UMActivity)context,binderGroup,configure);
 viewPage0.addView(panel5);
-panel6 = (XRelativeLayout)ThirdControl.createControl(new XRelativeLayout(context),ID_PANEL6
-,"height","80"
-,"layout-type","linear"
-,"width","fill"
-,"margin-bottom","24"
-);
+View panel6 = (View) getPanel6View((UMActivity)context,binderGroup,configure);
 viewPage0.addView(panel6);
 View panel7 = (View) getPanel7View((UMActivity)context,binderGroup,configure);
 viewPage0.addView(panel7);
@@ -974,6 +829,7 @@ TroubleDetail = (UMWindow)ThirdControl.createControl(new UMWindow(context),ID_TR
 ,"layout","vbox"
 ,"width","fill"
 ,"controller","TroubleDetailController"
+,"valign","TOP"
 ,"namespace","com.mobile.zhsg"
 );
 View Scrollview_viewPage0 = (View) getScrollview_viewPage0View((UMActivity)context,binderGroup,configure);
@@ -983,19 +839,19 @@ return (UMWindow)TroubleDetail;
 }
 
 	
-	public void actionAfterprevious_onclick(View control, UMEventArgs args) {
-    String actionid = "afterprevious_onclick";
+	public void actionButton0_onclick(View control, UMEventArgs args) {
+    String actionid = "button0_onclick";
     args.put("language","javascript");
     args.put("containerName","");
   ActionProcessor.exec(this, actionid, args);
-  this.getContainer().exec(actionid, "previous()",UMActivity.getViewId(control),args);
+  this.getContainer().exec(actionid, "back()",UMActivity.getViewId(control),args);
 }
-public void actionAfternext_onclick(View control, UMEventArgs args) {
-    String actionid = "afternext_onclick";
+public void actionViewpage0_onload(View control, UMEventArgs args) {
+    String actionid = "viewpage0_onload";
     args.put("language","javascript");
     args.put("containerName","");
   ActionProcessor.exec(this, actionid, args);
-  this.getContainer().exec(actionid, "next()",UMActivity.getViewId(control),args);
+  this.getContainer().exec(actionid, "load()",UMActivity.getViewId(control),args);
 }
 
 

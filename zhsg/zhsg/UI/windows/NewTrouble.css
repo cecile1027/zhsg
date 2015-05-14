@@ -3,6 +3,7 @@ halign:center;
 height:1200;
 width:fill;
 layout:vbox;
+valign:TOP;
 }
  #viewPage0 {
 halign:center;
@@ -10,24 +11,27 @@ height:fill;
 background:#f7f8f8;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #navigatorbar0 {
+halign:LEFT;
 background:#2d5aa7;
 }
- #button0 {
+ #backbutton0 {
 height:44;
 width:44;
 background-image:back.png;
 }
- #label0 {
+ #space0 {
 halign:center;
 height:fill;
 weight:1;
+font-size:14;
 width:0;
 font-family:default;
 valign:center;
 }
- #button1 {
+ #commit {
 height:44;
 font-size:17;
 }
@@ -36,26 +40,29 @@ halign:center;
 height:fill;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #div1 {
-padding-left:15;
 padding-right:15;
+padding-left:15;
 halign:center;
 height:180;
-background:#ffffff;
 layout:vbox;
+background:#ffffff;
 width:fill;
 margin-bottom:24;
 margin-top:24;
+valign:TOP;
 }
- #panel0 {
+ #divpanel0 {
+halign:LEFT;
 height:44;
-background:#ffffff;
 layout:hbox;
+background:#ffffff;
 width:fill;
 valign:center;
 }
- #label2 {
+ #projectLable {
 margin-right:24;
 halign:left;
 height:fill;
@@ -66,7 +73,7 @@ width:wrap;
 font-family:default;
 valign:center;
 }
- #label3 {
+ #space1 {
 halign:center;
 height:fill;
 weight:1;
@@ -76,7 +83,7 @@ width:0;
 font-family:default;
 valign:center;
 }
- #label4 {
+ #projText {
 halign:right;
 height:fill;
 widthWrap:32.0;
@@ -86,16 +93,7 @@ width:wrap;
 font-family:default;
 valign:center;
 }
- #label5 {
-halign:center;
-height:fill;
-color:#000000;
-font-size:14;
-width:12;
-font-family:default;
-valign:center;
-}
- #image0 {
+ #rowflag0 {
 height:44;
 width:8;
 }
@@ -105,14 +103,15 @@ background:#f1f1f1;
 layout:relative;
 width:fill;
 }
- #panel2 {
+ #divpanel1 {
+halign:LEFT;
 height:44;
-background:#ffffff;
 layout:hbox;
+background:#ffffff;
 width:fill;
 valign:center;
 }
- #label9 {
+ #areaLable {
 margin-right:24;
 halign:left;
 height:fill;
@@ -123,7 +122,7 @@ width:wrap;
 font-family:default;
 valign:center;
 }
- #label10 {
+ #space2 {
 halign:center;
 height:fill;
 weight:1;
@@ -133,7 +132,7 @@ width:0;
 font-family:default;
 valign:center;
 }
- #label11 {
+ #areaText {
 halign:right;
 height:fill;
 widthWrap:32.0;
@@ -143,7 +142,7 @@ width:wrap;
 font-family:default;
 valign:center;
 }
- #label12 {
+ #sp2 {
 halign:center;
 height:fill;
 color:#000000;
@@ -152,7 +151,7 @@ width:12;
 font-family:default;
 valign:center;
 }
- #image2 {
+ #rowflag1 {
 height:44;
 width:8;
 }
@@ -162,14 +161,15 @@ background:#f1f1f1;
 layout:relative;
 width:fill;
 }
- #panel3 {
+ #divpanel2 {
+halign:LEFT;
 height:44;
-background:#ffffff;
 layout:hbox;
+background:#ffffff;
 width:fill;
 valign:center;
 }
- #label13 {
+ #unitLable {
 margin-right:24;
 halign:left;
 height:fill;
@@ -180,7 +180,7 @@ width:wrap;
 font-family:default;
 valign:center;
 }
- #label14 {
+ #space3 {
 halign:center;
 height:fill;
 weight:1;
@@ -190,7 +190,7 @@ width:0;
 font-family:default;
 valign:center;
 }
- #label15 {
+ #unitText {
 halign:right;
 height:fill;
 widthWrap:32.0;
@@ -200,7 +200,7 @@ width:wrap;
 font-family:default;
 valign:center;
 }
- #label16 {
+ #sp3 {
 halign:center;
 height:fill;
 color:#000000;
@@ -209,7 +209,7 @@ width:12;
 font-family:default;
 valign:center;
 }
- #image3 {
+ #rowflag3 {
 height:44;
 width:8;
 }
@@ -219,14 +219,15 @@ background:#f1f1f1;
 layout:relative;
 width:fill;
 }
- #panel12 {
+ #divpanel3 {
+halign:LEFT;
 height:44;
-background:#ffffff;
 layout:hbox;
+background:#ffffff;
 width:fill;
 valign:center;
 }
- #label31 {
+ #unitpersonLable {
 margin-right:24;
 halign:left;
 height:fill;
@@ -237,7 +238,7 @@ width:wrap;
 font-family:default;
 valign:center;
 }
- #label32 {
+ #space4 {
 halign:center;
 height:fill;
 weight:1;
@@ -247,7 +248,7 @@ width:0;
 font-family:default;
 valign:center;
 }
- #label33 {
+ #officeText {
 halign:right;
 height:fill;
 widthWrap:32.0;
@@ -257,7 +258,7 @@ width:wrap;
 font-family:default;
 valign:center;
 }
- #label34 {
+ #sp4 {
 halign:center;
 height:fill;
 color:#000000;
@@ -266,7 +267,7 @@ width:12;
 font-family:default;
 valign:center;
 }
- #image6 {
+ #rowflag4 {
 height:44;
 width:8;
 }
@@ -277,24 +278,20 @@ layout:relative;
 width:fill;
 }
  #div2 {
-padding-left:15;
 padding-right:15;
+padding-left:15;
 halign:center;
 height:180;
+background:#ffffff;
 layout:vbox;
-background:#ffffff;
 width:fill;
+valign:TOP;
 }
- #brpanel4 {
-height:1;
-background:#f1f1f1;
-layout:relative;
-width:fill;
-}
- #panel5 {
+ #divpanel4 {
+halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -348,10 +345,11 @@ background:#f1f1f1;
 layout:relative;
 width:fill;
 }
- #panel6 {
+ #divpanel5 {
+halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -377,6 +375,7 @@ font-family:default;
 valign:center;
 }
  #togglebuttongroup0 {
+halign:LEFT;
 height:44;
 layout:hbox;
 width:88;
@@ -412,10 +411,11 @@ background:#f1f1f1;
 layout:relative;
 width:fill;
 }
- #panel7 {
+ #divpanel6 {
+halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -445,8 +445,8 @@ padding-left:4;
 halign:LEFT;
 height:44;
 color:#595757;
-font-size:15;
 background:#ffffff;
+font-size:15;
 width:110;
 font-family:default;
 }
@@ -456,10 +456,11 @@ background:#f1f1f1;
 layout:relative;
 width:fill;
 }
- #panel8 {
+ #divpanel7 {
+halign:LEFT;
 height:44;
-background:#ffffff;
 layout:hbox;
+background:#ffffff;
 width:fill;
 valign:center;
 }
@@ -469,12 +470,13 @@ height:30;
 weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #day1 {
 height:30;
 color:#333333;
-background:#FF7777;
 font-size:15;
+background:#FF7777;
 width:70;
 font-pressed-color:#ffffff;
 pressed-color:#c96a66;
@@ -485,12 +487,13 @@ height:30;
 weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #day3 {
 height:30;
 color:#333333;
-background:#feb568;
 font-size:15;
+background:#feb568;
 width:70;
 font-pressed-color:#ffffff;
 pressed-color:#d29b61;
@@ -501,32 +504,31 @@ height:30;
 weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #day5 {
 height:30;
 color:#333333;
-background:#fedb6e;
 font-size:15;
+background:#fedb6e;
 width:70;
 font-pressed-color:#ffffff;
 pressed-color:#d2b765;
 }
  #brpanel8 {
+halign:CENTER;
 height:1;
 background:#f1f1f1;
-layout:relative;
-width:fill;
-}
- #panel14 {
-height:60.0;
-layout:relative;
-width:120.0;
-}
- #panel4 {
-padding-left:15;
-height:44;
-background:#ffffff;
 layout:hbox;
+width:fill;
+valign:top;
+}
+ #div3 {
+padding-left:15;
+halign:LEFT;
+height:44;
+layout:hbox;
+background:#ffffff;
 width:fill;
 margin-top:24;
 valign:center;
@@ -552,26 +554,26 @@ width:0;
 font-family:default;
 valign:center;
 }
- #button2 {
+ #addPersonButton {
 height:44;
 color:#e50011;
-pressed-image:btn_add_touch;
+pressed-image:btn_add_touch.png;
 width:44;
-background-image:btn_add;
+background-image:btn_add.png;
 }
- #panel1 {
+ #div4 {
 height:1;
 background:#f1f1f1;
 layout:relative;
 width:fill;
 }
- #panel18 {
+ #div5 {
 height:80;
 background:#ffffff;
 layout:relative;
 width:fill;
 }
- #label1 {
+ #sendPersonText {
 halign:center;
 width:fill;
 margin-bottom:4;
@@ -587,10 +589,11 @@ margin-top:4;
 valign:center;
 top:0.0;
 }
- #panel9 {
-padding-left:15;
+ #div6 {
 padding-right:15;
+padding-left:15;
 padding-top:24;
+halign:LEFT;
 height:wrap;
 heightWrap:45.0;
 layout:hbox;
@@ -609,23 +612,24 @@ width:wrap;
 font-family:default;
 valign:center;
 }
- #textarea0 {
-padding-right:4;
+ #textArea {
 padding-left:4;
+padding-right:4;
 padding-top:14;
 halign:LEFT;
 height:100;
 color:#333333;
-font-size:15;
 background:#ffffff;
+font-size:15;
 width:fill;
 font-family:default;
 padding-bottom:14;
 }
- #panel10 {
-padding-left:15;
+ #div7 {
 padding-right:15;
+padding-left:15;
 padding-top:24;
+halign:LEFT;
 height:wrap;
 heightWrap:45.0;
 layout:hbox;
@@ -645,8 +649,9 @@ font-family:default;
 valign:center;
 }
  #attpanel1 {
-padding-right:15;
 padding-left:15;
+padding-right:15;
+halign:LEFT;
 height:80;
 layout:hbox;
 width:fill;
@@ -659,6 +664,7 @@ height:fill;
 weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #attimage1 {
 height:80;
@@ -670,6 +676,7 @@ height:fill;
 weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #attimage2 {
 height:80;
@@ -677,18 +684,20 @@ width:80;
 }
  #panel21 {
 halign:center;
-weight:1;
 height:fill;
+weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #attimage3 {
 height:80;
 width:80;
 }
  #attpanel2 {
-padding-left:15;
 padding-right:15;
+padding-left:15;
+halign:LEFT;
 height:80;
 layout:hbox;
 width:fill;
@@ -698,10 +707,11 @@ valign:center;
 }
  #panel24 {
 halign:center;
-weight:1;
 height:fill;
+weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #attimage4 {
 height:80;
@@ -709,10 +719,11 @@ width:80;
 }
  #panel25 {
 halign:center;
-weight:1;
 height:fill;
+weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #attimage5 {
 height:80;
@@ -720,10 +731,11 @@ width:80;
 }
  #panel26 {
 halign:center;
-weight:1;
 height:fill;
+weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #attimage6 {
 height:80;
@@ -732,18 +744,21 @@ width:80;
  #attpanel3 {
 padding-right:15;
 padding-left:15;
+halign:LEFT;
 height:80;
 layout:hbox;
 width:fill;
+margin-bottom:10;
 display:none;
 valign:center;
 }
  #panel27 {
 halign:center;
-weight:1;
 height:fill;
+weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #attimage7 {
 height:80;
@@ -751,10 +766,11 @@ width:80;
 }
  #panel28 {
 halign:center;
-weight:1;
 height:fill;
+weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #attimage8 {
 height:80;
@@ -762,10 +778,11 @@ width:80;
 }
  #panel29 {
 halign:center;
-weight:1;
 height:fill;
+weight:1;
 layout:vbox;
 width:0;
+valign:TOP;
 }
  #attimage9 {
 height:80;

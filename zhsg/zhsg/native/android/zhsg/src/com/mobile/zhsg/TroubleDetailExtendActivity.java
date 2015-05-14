@@ -70,12 +70,5 @@ public class TroubleDetailExtendActivity extends TroubleDetailActivity {
 		super.onDatabinding();
 	}
 	
-	public void actionAfterprevious_onclick(View control, UMEventArgs args) {
-  super.actionAfterprevious_onclick(control,args);
-}
-public void actionAfternext_onclick(View control, UMEventArgs args) {
-  super.actionAfternext_onclick(control,args);
-}
-
 
 }

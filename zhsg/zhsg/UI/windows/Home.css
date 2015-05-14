@@ -3,6 +3,7 @@ halign:center;
 height:fill;
 width:fill;
 layout:vbox;
+valign:TOP;
 }
  #viewPage0 {
 halign:center;
@@ -10,8 +11,12 @@ height:fill;
 width:fill;
 background:#f7f8f8;
 layout:vbox;
+valign:TOP;
 }
  #navigatorbar0 {
+padding-left:0;
+halign:LEFT;
+height:44;
 background:#2d5aa7;
 }
  #button0 {
@@ -48,18 +53,21 @@ background-image:search_bg;
 }
  #panel0 {
 halign:center;
-weight:1;
 height:0;
+weight:1;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #panel3 {
 halign:center;
 height:45;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #togglebuttongroup0 {
+halign:LEFT;
 height:44;
 layout:hbox;
 width:fill;
@@ -111,18 +119,22 @@ height:1;
 background:#d8d8d8;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #flipperdefine0 {
 halign:center;
-height:360.0;
+height:0;
+weight:1;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #listpanel0 {
 halign:center;
 height:fill;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #widget0 {
 height:460;
@@ -133,6 +145,7 @@ halign:center;
 height:fill;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #widget1 {
 height:460;
@@ -143,6 +156,7 @@ halign:center;
 height:fill;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #widget2 {
 height:460;
@@ -153,6 +167,7 @@ halign:center;
 height:fill;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #widget3 {
 height:460;
@@ -163,9 +178,12 @@ halign:center;
 height:50;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #tabbar0 {
-height:49;
+halign:LEFT;
+height:0;
+weight:1;
 background:#f7f7f7;
 layout:hbox;
 width:fill;

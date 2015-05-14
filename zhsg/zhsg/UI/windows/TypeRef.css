@@ -43,7 +43,7 @@ background-image:search_bg;
  #listviewdefine0 {
 halign:center;
 list-type:group;
-height:216;
+height:fill;
 layout:vbox;
 width:fill;
 }
@@ -55,10 +55,10 @@ layout:vbox;
 width:fill;
 }
  #panel1 {
-weight:1;
 height:0;
-background:#f7f7f7;
+weight:1;
 layout:hbox;
+background:#f7f7f7;
 width:fill;
 valign:center;
 }
@@ -92,27 +92,28 @@ width:fill;
 margin-right:15;
 height:0;
 weight:1;
-layout:hbox;
 background:#FFFFFF;
+layout:hbox;
 width:fill;
 margin-left:15;
 valign:center;
 }
  #label2 {
-margin-right:10;
+margin-right:20;
 halign:left;
 height:wrap;
+widthWrap:64.0;
 color:#595757;
 heightWrap:22.0;
 font-size:15;
-width:65;
+width:wrap;
 font-family:default;
 valign:center;
 }
  #label3 {
 halign:left;
-weight:1;
 height:wrap;
+weight:1;
 color:#595757;
 heightWrap:22.0;
 font-size:15;
@@ -123,8 +124,8 @@ valign:center;
  #panel5 {
 margin-right:15;
 height:1;
-background:#f1f1f1;
 layout:hbox;
+background:#f1f1f1;
 width:fill;
 margin-left:15;
 valign:center;

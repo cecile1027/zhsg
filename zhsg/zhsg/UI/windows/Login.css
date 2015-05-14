@@ -3,15 +3,18 @@ halign:center;
 height:fill;
 width:fill;
 layout:vbox;
+valign:TOP;
 }
  #viewPage0 {
 halign:center;
 height:fill;
 width:fill;
-background:#f7f8f8;
 layout:vbox;
+valign:TOP;
+background-image:bg.png;
 }
  #navigatorbar0 {
+halign:LEFT;
 background:#2d5aa7;
 }
  #label0 {
@@ -35,6 +38,15 @@ height:90;
 layout:vbox;
 width:fill;
 margin-top:24;
+valign:TOP;
+}
+ #panel1 {
+halign:center;
+height:45;
+background:#f1f1f1;
+layout:vbox;
+width:fill;
+valign:TOP;
 }
  #textbox0 {
 padding-right:15;
@@ -47,20 +59,23 @@ background:#ffffff;
 width:fill;
 font-family:default;
 }
- #panel1 {
+ #panel3 {
+halign:LEFT;
 height:1;
-background:#f1f1f1;
-layout:relative;
+layout:hbox;
 width:fill;
+background:#d8d8d8;
+valign:center;
 }
  #panel2 {
+halign:LEFT;
 height:44;
 background:#ffffff;
 layout:hbox;
 width:fill;
 valign:center;
 }
- #textbox1 {
+ #pwinput {
 padding-right:8;
 padding-left:15;
 halign:LEFT;
@@ -72,11 +87,21 @@ background:#ffffff;
 width:0;
 font-family:default;
 }
+ #textinput {
+padding-left:15;
+padding-right:8;
+halign:LEFT;
+height:44;
+weight:1;
+color:#333333;
+font-size:15;
+background:#ffffff;
+width:0;
+font-family:default;
+display:none;
+}
  #showButton {
 margin-right:8;
 height:44;
-widthWrap:44.0;
-pressed-image:pw_hidden.png;
-width:wrap;
 background-image:pw_show.png;
 }

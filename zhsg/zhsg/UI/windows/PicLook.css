@@ -1,0 +1,60 @@
+ #region1 {
+padding-right:20;
+padding-left:20;
+padding-top:20;
+halign:CENTER;
+height:fill;
+layout:hbox;
+width:fill;
+valign:top;
+padding-bottom:20;
+}
+ #PicLook {
+halign:left;
+height:fill;
+layout:vbox;
+width:fill;
+valign:CENTER;
+}
+ #panel0 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+background:#f7f8f8;
+width:fill;
+valign:TOP;
+}
+ #panel1 {
+halign:LEFT;
+height:22;
+layout:hbox;
+width:fill;
+valign:center;
+}
+ #label0 {
+halign:center;
+height:22;
+weight:1;
+color:#000000;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #button0 {
+halign:center;
+height:22;
+widthWrap:22.0;
+color:#00a1ea;
+font-size:17;
+width:wrap;
+font-family:default;
+font-pressed-color:#459dfe;
+valign:center;
+background-image:tool_error_touch.png;
+}
+ #image0 {
+height:fill;
+width:fill;
+}

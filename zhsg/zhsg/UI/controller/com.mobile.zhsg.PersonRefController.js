@@ -31,12 +31,50 @@ function com$mobile$zhsg$PersonRefController$initialize(){
     //your initialize code below...
     
 }
-    
+var oper_no;
+var unit_no;
 function com$mobile$zhsg$PersonRefController$evaljs(js){
     eval(js)
 }
 function loadList(sender, args){
-
+//	alert($jsonToString($param.getJSONObject("data")));
+	oper_no = $param.getJSONObject("data").ope_area_no;
+	unit_no = $param.getJSONObject("data").respon_unit;
+	$service.callAction({
+		"viewid" : "com.yonyou.uap.safetw.SafeLovListCtl",//后台带包名的Controller名
+		"action" : "searchDutyOfficer",//方法名,
+		"params" : {"keytype":"All","keyvalue":"1","oper_no":oper_no,"unit_no":unit_no},//自定义参数
+		"callback" : function(){
+			var list = $ctx.getJSONObject();
+//			alert($jsonToString(list));
+			$ctx.push(list);
+		},//请求回来后执行的ActionID
+		"error" : "error()"//失败回调的ActionId
+	})
+}
+function itemClick(sender, args){
+	var row = $id("listviewdefine0").get("row");
+	$view.close({
+		"resultCode" : "15",
+		"result" : row,
+	})
+}
+function search(sender, args){
+	var search = $id("search0").get("value");
+	$service.callAction({
+		"viewid" : "com.yonyou.uap.safetw.SafeLovListCtl",//后台带包名的Controller名
+		"action" : "searchDutyOfficer",//方法名,
+		"params" : {"keytype":"search","keyvalue":search,"oper_no":oper_no,"unit_no":unit_no},//自定义参数
+		"callback" : function(){
+			var list = $ctx.getJSONObject();
+//			alert($jsonToString(list));
+			$ctx.push(list);
+		},//请求回来后执行的ActionID
+		"error" : "error()"//失败回调的ActionId
+	})
+}
+function back(sender, args){
+	$view.close();
 }
 com.mobile.zhsg.PersonRefController.prototype = {
     initialize : com$mobile$zhsg$PersonRefController$initialize,

@@ -63,13 +63,14 @@ width:fill;
 valign:center;
 }
  #label1 {
-margin-right:10;
+margin-right:20;
 halign:left;
 height:wrap;
+widthWrap:32.0;
 color:#595757;
 heightWrap:22.0;
 font-size:15;
-width:65;
+width:wrap;
 font-family:default;
 valign:center;
 }

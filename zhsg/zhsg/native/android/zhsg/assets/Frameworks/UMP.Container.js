@@ -245,6 +245,21 @@ CommonNativeCallService.prototype.callAction=function(controllerName, actionName
 		}
 		*/
 		args = controllerName;
+		var sysParam = {
+			viewid:"xxx.xxx.xx",
+			action:"methodName",
+			//"params" : {a:1,b:2},//自定义参数
+			//isDataCollect:true,
+			autoDataBinding:true,//请求回来会是否进行数据绑定
+			contextmapping:"fieldPath",//将返回结果映射到指定的Context字段上，默认为替换整个Context
+			callback:"actionid",			
+			error:"errorActionId"//失败回调的ActionId			
+		};
+		for(key in args){
+			if(!sysParam.hasOwnProperty(key) && typeof args[key] == "string"){
+				args[key] = $stringToJSON(args[key]);
+			}
+		}
 		return UM_NativeCall.callService("UMService.callAction", args, false);
 	}else{
 		var args = {};
@@ -851,10 +866,14 @@ function UMP$UI$Container$UMCtx$getApp(key){
 	"sessionid"
 	"token"	
 	*/
+	if(!(typeof key == "string")){
+		alert("getApp方法参数不是一个有效的字符串类型，请正确指定参数key");
+		return;
+	}
 	var expr = "#{app."+key+"}";
 	return this._getValue(expr);	//同步执行	
 }
-function UMP$UI$Container$UMCtx$setApp(json){
+function UMP$UI$Container$UMCtx$setApp(json, isSync){
 	/*
 	var json={
 		a:"x",
@@ -865,6 +884,10 @@ function UMP$UI$Container$UMCtx$setApp(json){
 	*/
 	if(typeof isSync == "undefined"){
 		isSync = true;	//默认同步执行
+	}
+	if(!$isJSONObject(json)){
+		alert("setApp方法参数不是一个有效的JSONObject，请正确指定其参数为JSONObject类型，例如{\"name\":\"xxx\", \"code\":\"C001\"}");
+		return;
 	}
 	var args = json;
 	var strArgs = $jsonToString(args);	

@@ -1,0 +1,64 @@
+ #PicView {
+halign:center;
+height:fill;
+width:fill;
+layout:vbox;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+width:fill;
+background:#F5F5F5;
+layout:vbox;
+valign:TOP;
+}
+ #navigatorbar0 {
+padding-right:0;
+padding-left:0;
+halign:LEFT;
+background:#2d5aa7;
+}
+ #button0 {
+halign:left;
+height:44;
+width:44;
+background-image:back.png;
+}
+ #panel0 {
+halign:center;
+height:fill;
+weight:1;
+layout:vbox;
+width:0;
+valign:CENTER;
+}
+ #label0 {
+halign:center;
+height:wrap;
+widthWrap:23.0;
+color:#ffffff;
+heightWrap:25.0;
+font-size:17;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #button1 {
+height:44;
+color:#ffffff;
+pressed-image:delete_pressed.png;
+background-image:delete.png;
+}
+ #panel1 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#f7f8f8;
+width:fill;
+valign:CENTER;
+}
+ #imageflipper0 {
+height:fill;
+width:fill;
+}

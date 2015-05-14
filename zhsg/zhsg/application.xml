@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<application id="zhsg" appname="安全移动检查" versionCode="1" versionName="1" icon="app" theme="blue" jsengine="v2.0" package="com.mobile.zhsg" language="zh_cn" autoCheckUpdate="false" isLibrary="false"> 
+<application id="zhsg" appname="隐患排查" versionCode="1" versionName="1" icon="app" theme="blue" jsengine="v2.0" package="com.mobile.zhsg" language="zh_cn" autoCheckUpdate="false" isLibrary="false"> 
   <permission id="internet"/>  
   <start view="Login"/> /&gt;
   <!--view id="demo" ref="demo.dsl"><extend screenOrientation="landscape|portrait|unspecified"/></view-->  
   <!--view id="demo" ref="demo.dsl"><extend windowSoftInputMode="stateUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|stateVisible|stateAlwaysVisible|adjustUnspecified|adjustResize|adjustPan"/></view-->  
-  <view id="NewTrouble" ref="NewTrouble.dsl" include="true" windowSoftInputMode="stateHidden"/>  
+  <view id="NewTrouble" ref="NewTrouble.dsl" include="true"> 
+    <extend windowSoftInputMode="stateHidden"/> 
+  </view>  
   <view id="TroubleDetail" ref="TroubleDetail.dsl" include="true"/>  
   <view id="Home" ref="Home.dsl" include="true"/>  
-  <view id="Login" ref="Login.dsl" include="true"/>  
+  <view id="Login" ref="Login.dsl" include="true"> 
+    <extend windowSoftInputMode="stateHidden"/> 
+  </view>  
   <view id="OrgRef" ref="OrgRef.dsl" include="true"/>  
   <view id="OpeAreaRef" ref="OpeAreaRef.dsl" include="true"/>  
   <view id="PersonRef" ref="PersonRef.dsl" include="true"/>  
   <view id="TypeRef" ref="TypeRef.dsl" include="true"/>  
   <view id="SendPersonRef" ref="SendPersonRef.dsl" include="true"/>  
-  <view id="RectificatedTrouble" ref="RectificatedTrouble.dsl" include="true"/>  
+  <view id="RectificatedTrouble" ref="RectificatedTrouble.dsl" include="true"> 
+    <extend windowSoftInputMode="stateHidden"/> 
+  </view>  
   <view id="DetailProcess" ref="DetailProcess.dsl" include="true"/>  
-  <view id="SelectImage" ref="SelectImage.dsl" include="true"/>  
-  <view id="BackTrouble" ref="BackTrouble.dsl" include="true"/>  
-  <view id="RevisedTrouble" ref="RevisedTrouble.dsl" include="true"/>
+  <view id="SelectImage" ref="SelectImage.dsl" include="true"> 
+    <extend windowSoftInputMode="stateHidden"/> 
+  </view>  
+  <view id="BackTrouble" ref="BackTrouble.dsl" include="true"> 
+    <extend windowSoftInputMode="stateHidden"/> 
+  </view>  
+  <view id="RevisedTrouble" ref="RevisedTrouble.dsl" include="true"> 
+    <extend windowSoftInputMode="stateHidden"/> 
+  </view>  
+  <view id="PicView" ref="PicView.dsl" include="true"/> 
 </application>
 <!--
 screenOrientation

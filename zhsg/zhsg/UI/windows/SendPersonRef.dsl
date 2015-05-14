@@ -5,7 +5,7 @@
     <link type="text/css" href="sys/theme.css"/>
     <div id="viewPage0">
         <navigatorbar id="navigatorbar0" title="抄送人" class="navigatorbarclass">
-            <input id="button1" class="textbtnclass" type="button"/>
+            <input id="button1" class="textbtnclass" onclick="back()" type="button"/>
             <label id="label0"/>
             <input id="button0" value="确定" class="buttonclass" type="button"/> 
         </navigatorbar>

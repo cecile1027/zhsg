@@ -1,0 +1,66 @@
+# view res/layout/um_alert_dialog.xml #generated:66
+-keep class com.android.internal.widget.DialogTitle { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.mobile.zhsg.BackTroubleExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.mobile.zhsg.DetailProcessExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.mobile.zhsg.HomeExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.mobile.zhsg.LoginExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.mobile.zhsg.NewTroubleExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.mobile.zhsg.OpeAreaRefExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.mobile.zhsg.OrgRefExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.mobile.zhsg.PersonRefExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.mobile.zhsg.PicViewExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.mobile.zhsg.RectificatedTroubleExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.mobile.zhsg.RevisedTroubleExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:136
+-keep class com.mobile.zhsg.SelectImageExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.mobile.zhsg.SendPersonRefExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.mobile.zhsg.TroubleDetailExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.mobile.zhsg.TypeRefExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.yonyou.uap.um.activity.WelcomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:172
+-keep class com.yonyou.uap.um.control.UMCameraActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:179
+-keep class com.yonyou.uap.um.control.UMMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.yonyou.uap.um.control.UMTwoDCodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.yonyou.uap.um.core.UAPMobileApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:186
+-keep class com.yonyou.uap.um.runtime.ExtraMapActivity { <init>(...); }
+

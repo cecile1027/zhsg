@@ -27,10 +27,31 @@ function UMP$UI$Mvc$Router$eval(controllerid, js, ctx, sender, args, uicontrols)
 		}
 	}
 }
-
+function UMP$UI$Mvc$Router$debug(controllerid, js, ctx, sender, args, custom){
+	//if($isWeb && false){
+	if(false){
+		$__controller.eval(js, ctx, sender, args);
+	}else{
+		var c = __$getInstance(controllerid);
+		if(c){
+			if(!custom) alert("调试发生异常");
+			custom["debug"] = "begin";//custom内已经含有id信息，用于标识该次执行JS的唯一标识
+			$service.call("UMJS.debug",custom,true);//同步通知安卓原生调试开始
+			
+			c.eval(js, ctx, sender, args, {});
+			
+			custom["debug"] = "end";
+			$service.call("UMJS.debug",custom,true);//同步通知安卓原生调试结束
+		}else{			
+			alert(controllerid + "未能正确初始化加载，可能是由于语法错误导致未能正确加载\n建议启动调试进行排查，也可查看浏览器的控制台")
+			return;
+		}
+	}
+}
 UMP.UI.Mvc.Router.prototype = {
     route : UMP$UI$Mvc$Router$route,	
-	eval : UMP$UI$Mvc$Router$eval
+	eval : UMP$UI$Mvc$Router$eval,
+	debug : UMP$UI$Mvc$Router$debug
 };
 UMP.UI.Mvc.Router.registerClass('UMP.UI.Mvc.Router');
 

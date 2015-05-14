@@ -35,12 +35,56 @@ function com$mobile$zhsg$OrgRefController$initialize(){
 function com$mobile$zhsg$OrgRefController$evaljs(js){
     eval(js)
 }
+var oper_no;
 function loadList(sender, args){
-	var list = {
-		"list" :[
-		{"color1":"#000000","org_no":"1","org_desc":"2"}] 
-	}
+	oper_no = $param.getString("data");
+	$service.callAction({
+		"viewid" : "com.yonyou.uap.safetw.SafeLovListCtl",//后台带包名的Controller名
+		"action" : "searchResposeUnit",//方法名,
+		"params" : {"keytype":"All","keyvalue":"1","oper_no":oper_no},//自定义参数
+		"callback" : function(){
+			var list = $ctx.getJSONObject();
+//			alert($jsonToString(list));
+			$ctx.push(list);
+		},//请求回来后执行的ActionID
+		"error" : "error()"//失败回调的ActionId
+	})
+	
+}
+function itemClick(sender, args){
+	var row = $id("listviewdefine0").get("row");
+//	alert($jsonToString(row));
+	$view.close({
+		"resultCode" : "15",
+		"result" : row,
+	})
+
+}
+
+function error(sender,msg){
+	alert($jsonToString(msg));
+}
+
+function more(sender, args){
+	var list;
 	$ctx.push(list);
+}
+function back(sender, args){
+	$view.close();
+}
+function search(sender, args){
+	var search = $id("search0").get("value");
+	$service.callAction({
+		"viewid" : "com.yonyou.uap.safetw.SafeLovListCtl",//后台带包名的Controller名
+		"action" : "searchResposeUnit",//方法名,
+		"params" : {"keytype":"search","keyvalue":search,"oper_no":oper_no},//自定义参数
+		"callback" : function(){
+			var list = $ctx.getJSONObject();
+//			alert($jsonToString(list));
+			$ctx.push(list);
+		},//请求回来后执行的ActionID
+		"error" : "error()"//失败回调的ActionId
+	})	
 }
 com.mobile.zhsg.OrgRefController.prototype = {
     initialize : com$mobile$zhsg$OrgRefController$initialize,

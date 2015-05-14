@@ -3,6 +3,7 @@ halign:center;
 height:700;
 layout:vbox;
 width:fill;
+valign:TOP;
 }
  #viewPage0 {
 halign:center;
@@ -10,8 +11,10 @@ height:fill;
 layout:vbox;
 background:#f7f8f8;
 width:fill;
+valign:TOP;
 }
  #navigatorbar0 {
+halign:LEFT;
 background:#2d5aa7;
 }
  #button0 {
@@ -31,19 +34,21 @@ font-family:default;
 valign:center;
 }
  #panel0 {
-padding-left:15;
 padding-right:15;
+padding-left:15;
 padding-top:6;
 halign:center;
-height:200;
-background:#ffffff;
-layout:vbox;
 width:fill;
 margin-bottom:24;
-margin-top:24;
 padding-bottom:6;
+height:200;
+layout:vbox;
+background:#ffffff;
+margin-top:24;
+valign:TOP;
 }
  #panel1 {
+halign:LEFT;
 height:30;
 layout:hbox;
 width:fill;
@@ -54,8 +59,8 @@ margin-right:6;
 halign:center;
 height:30;
 color:#ffffff;
-background:#1680fa;
 font-size:13;
+background:#1680fa;
 width:44;
 font-family:default;
 valign:center;
@@ -93,6 +98,7 @@ font-family:default;
 valign:center;
 }
  #panel2 {
+halign:LEFT;
 height:wrap;
 heightWrap:20.0;
 layout:hbox;
@@ -134,6 +140,7 @@ font-family:default;
 valign:center;
 }
  #panel3 {
+halign:LEFT;
 height:wrap;
 heightWrap:20.0;
 layout:hbox;
@@ -162,7 +169,7 @@ width:0;
 font-family:default;
 valign:center;
 }
- #label12 {
+ #period {
 halign:center;
 height:wrap;
 widthWrap:84.0;
@@ -174,6 +181,7 @@ font-family:default;
 valign:center;
 }
  #panel4 {
+halign:LEFT;
 height:20;
 layout:hbox;
 width:fill;
@@ -210,7 +218,7 @@ font-size:13;
 width:wrap;
 }
  #label15 {
-halign:center;
+halign:left;
 height:wrap;
 color:#595757;
 heightWrap:40.0;
@@ -218,14 +226,15 @@ font-size:13;
 width:fill;
 font-family:default;
 margin-top:4;
-valign:center;
+valign:top;
 }
  #panel5 {
+halign:LEFT;
 height:20;
 layout:hbox;
 width:fill;
+margin-bottom:5;
 valign:center;
-padding-bottom:5;
 }
  #label16 {
 halign:center;
@@ -240,12 +249,19 @@ font-family:default;
 valign:center;
 }
  #panel6 {
+halign:LEFT;
 height:80;
-layout:relative;
+layout:hbox;
 width:fill;
 margin-bottom:24;
+valign:center;
+}
+ #aftergallery {
+height:60;
+width:fill;
 }
  #panel7 {
+halign:LEFT;
 height:20;
 layout:hbox;
 width:fill;
@@ -265,95 +281,24 @@ font-family:default;
 valign:center;
 }
  #panel8 {
-padding-left:15;
-padding-right:15;
+halign:LEFT;
 height:80;
 layout:hbox;
 width:fill;
 margin-bottom:24;
 valign:center;
 }
- #afterPrevious {
-height:fill;
-layout:hbox;
-width:12;
-valign:center;
-}
- #button3 {
-margin-right:6;
-height:44;
-width:8;
-background-image:row_left.png;
-}
- #panel10 {
-weight:1;
-height:fill;
-layout:hbox;
-width:0;
-valign:center;
-}
- #panel13 {
-halign:center;
-weight:1;
-height:60.0;
-layout:vbox;
-width:0;
-}
- #afterImage1 {
+ #beforegallery {
 height:60;
-width:60;
-}
- #panel14 {
-halign:center;
-weight:1;
-height:60.0;
-layout:vbox;
-width:0;
-}
- #afterImage2 {
-height:60;
-width:60;
-}
- #panel15 {
-halign:center;
-weight:1;
-height:60.0;
-layout:vbox;
-width:0;
-}
- #afterImage3 {
-height:60;
-width:60;
-}
- #panel16 {
-halign:center;
-weight:1;
-height:60.0;
-layout:vbox;
-width:0;
-}
- #afterImage4 {
-height:60;
-width:60;
-}
- #afterNext {
-height:fill;
-layout:hbox;
-width:12;
-valign:center;
-}
- #button2 {
-height:44;
-width:8;
-margin-left:6;
-background-image:row_indicator.png;
+width:fill;
 }
  #panel9 {
-padding-right:15;
 padding-left:15;
+padding-right:15;
+halign:LEFT;
 height:44;
-background:#ffffff;
 layout:hbox;
+background:#ffffff;
 width:fill;
 valign:center;
 }

@@ -36,8 +36,23 @@ function com$mobile$zhsg$SendPersonRefController$evaljs(js){
     eval(js)
 }
 function loadList(sender, args){
-
+	$service.callAction({
+		"viewid" : "com.yonyou.uap.safetw.SafeLovListCtl",//后台带包名的Controller名
+		"action" : "searchCopyTo",//方法名,
+		"params" : {"keytype":"All","keyvalue":"1"},//自定义参数
+		"callback" : function(){
+			var list = $ctx.getJSONObject();
+//			alert($jsonToString(list));
+			$ctx.push(list);
+		},//请求回来后执行的ActionID
+		"error" : "error()"//失败回调的ActionId
+	})
 }
+
+function back(sender, args){
+	$view.close();
+}
+
 com.mobile.zhsg.SendPersonRefController.prototype = {
     initialize : com$mobile$zhsg$SendPersonRefController$initialize,
     evaljs : com$mobile$zhsg$SendPersonRefController$evaljs

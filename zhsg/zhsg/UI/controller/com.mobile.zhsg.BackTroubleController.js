@@ -35,35 +35,64 @@ function com$mobile$zhsg$BackTroubleController$initialize(){
 function com$mobile$zhsg$BackTroubleController$evaljs(js){
     eval(js)
 }
-function previous(sender, args){
 
-	
+var row;
+function load(sender, args){
+	row = $param.getJSONObject("row");
+	var level = row.safe_yh_level;
+	if(level=="NORMAL"){
+		$id("label1").set("background", "#1680fa");
+	}else{
+		$id("label1").set("background", "#ff3c3c");
+	}
+	    var rowstate = row.rowstate;
+    if(rowstate == "Created"){
+         $id("label3").set("background-image","created.png");
+    }else if(rowstate == "Issued"){
+        $id("label3").set("background-image","issued.png");
+    }else if(rowstate == "Rectificated"){
+        $id("label3").set("background-image","rectificated.png");
+    }else if(rowstate == "Revised"){
+        $id("label3").set("background-image","revised.png");
+    }else if(rowstate == "Closed"){
+        $id("label3").set("background-image","closed.png");
+    }
+
+	$ctx.push(row);
 }
-function next(sender, args){
 
-}
-function moreOperate(sender, args){
-
-	$menu.openDropDownList({
-		"controlid" : "more",//目标控件的id
-		"dropDownListWidth" : "100",//菜单项的宽度
-		"dropItemsArray" : [{
-			"name" : "验证关闭",//菜单项名称
-			"action" : "close()"//点击该菜单项时执行的JS方法
-			//"image" : "btn_fav.png"//菜单项的icon
-		},{
-			"name" : "退回",//菜单项名称
-			"action" : "backover()"//点击该菜单项时执行的JS方法 
-			//"image" : "btn_set.png"//菜单项的icon
-		}],
-		"background":"#2d5aa7",
-       "panelstyle":"round-div",
-       "border-color":"#ffffff",
-       "showtype":"right"
-
+function back(sender, args){	
+	$view.close({
+		"resultCode" : "15",
+		"row" : row
 	})
 }
+function commit(sender, args){
+	$ctx.dataCollect();
+	var json = $ctx.getJSONObject();
+	if(json.drafter==null||json.drafter==""){
+		json["drafter"] = $cache.read("username");
+	};
+	json["rowstate"] = "Revised";
+	$service.callAction({
+		"viewid" : "com.yonyou.uap.safetw.SafeDailyHidDangerCtl",//提交隐患
+		"action" : "modify",//方法名,
+		"params" : json,//自定义参数
+		"contextmapping":"none",
+		"callback" : function(){
+            $view.open({
+                "viewid" : "com.mobile.zhsg.Home",//目标页面（首字母大写）全名，
+                "isKeep" : "false"
+            });
+		},//请求回来后执行的ActionID
+		"error" : "error()"//失败回调的ActionId
+	})
+	
+}
 
+    function error(sender,msg){
+        alert($jsonToString(msg));
+    }
 com.mobile.zhsg.BackTroubleController.prototype = {
     initialize : com$mobile$zhsg$BackTroubleController$initialize,
     evaljs : com$mobile$zhsg$BackTroubleController$evaljs

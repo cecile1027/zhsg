@@ -4,18 +4,18 @@
     <import ref="BackTrouble.css" type="css"/>
     <link type="text/css" href="sys/theme.css"/>
     <Scrollview id="Scrollview_viewPage0" height="fill" width="fill" hScrollEnabled="disabled">
-        <div id="viewPage0">
+        <div id="viewPage0" onload="load()">
             <navigatorbar id="navigatorbar0" title="隐患详情" class="navigatorbarclass">
-                <input id="button0" class="buttonclass" type="button"/>
+                <input id="button0" class="buttonclass" onclick="back()" type="button"/>
                 <label id="label0"/>
-                <input id="more" value="提交" class="textbtnclass" type="button"/> 
+                <input id="more" value="提交" class="textbtnclass" onclick="commit()" type="button"/> 
             </navigatorbar>
             <div id="panel0">
                 <div id="panel1">
-                    <label id="label1" bindfield="safe_yh_level">一般</label>
-                    <label id="label2" bindfield="ope_area_desc">工作区</label>
-                    <label id="label3">label</label>
-                    <label id="label4" bindfield="rowstate">已创建</label> 
+                    <label id="label1" bindfield="safe_yh_level_name">一般</label>
+                    <label id="label2" bindfield="ope_area_no">工作区</label>
+                    <label id="label3"/>
+                    <label id="label4" bindfield="rowstate_name">已创建</label> 
                 </div>
                 <div id="panel4">
                     <label id="label13">隐患描述</label>
@@ -36,7 +36,7 @@
                 <input id="button2" class="textbtnclass" type="button"/> 
             </div>
             <div id="panel2">
-                <label id="label5" type="multiline"/>
+                <label id="label5" type="multiline"/> 
             </div> 
         </div>
     </Scrollview> 
